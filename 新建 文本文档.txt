@@ -1,0 +1,3 @@
+D:\GitHub\FastPlanner> ./build/Release/main.exe   
+
+PS D:\GitHub\FastPlanner> & C:/Users/wboy8/AppData/Local/Programs/Python/Python311/python.exe d:/GitHub/FastPlanner/scripts/plot_trajectory.py
