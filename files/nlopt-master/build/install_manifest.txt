@@ -1,9 +1,0 @@
-D:/GitHub/FastPlanner/$nlopt_install/lib/pkgconfig/nlopt.pc
-D:/GitHub/FastPlanner/$nlopt_install/include/nlopt.h
-D:/GitHub/FastPlanner/$nlopt_install/include/nlopt.hpp
-D:/GitHub/FastPlanner/$nlopt_install/lib/nlopt.lib
-D:/GitHub/FastPlanner/$nlopt_install/bin/nlopt.dll
-D:/GitHub/FastPlanner/$nlopt_install/lib/cmake/nlopt/NLoptLibraryDepends.cmake
-D:/GitHub/FastPlanner/$nlopt_install/lib/cmake/nlopt/NLoptLibraryDepends-release.cmake
-D:/GitHub/FastPlanner/$nlopt_install/lib/cmake/nlopt/NLoptConfig.cmake
-D:/GitHub/FastPlanner/$nlopt_install/lib/cmake/nlopt/NLoptConfigVersion.cmake
