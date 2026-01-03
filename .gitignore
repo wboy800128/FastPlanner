@@ -1,0 +1,38 @@
+# Build directories
+/build/
+/files/*/build/
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.VC.db
+*.VC.VC.opendb
+
+# Visual Studio build outputs
+/*.exe
+/*.dll
+/*.lib
+/*.pdb
+
+# CMake
+/CMakeFiles/
+/CMakeCache.txt
+/cmake_install.cmake
+/Makefile
+
+# Python artifacts
+__pycache__/
+*.pyc
+
+# Generated plots and data
+trajectory.png
+trajectory.csv
+
+# Third-party builds and installed artifacts
+/third_party/**/bin/
+/third_party/**/lib/
+
+# Ignore IDE config
+.idea/
+*.iml

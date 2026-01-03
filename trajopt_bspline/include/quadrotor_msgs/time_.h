@@ -22,6 +22,11 @@ public:
     // 通过chrono的time_point构造
     explicit Time(const TimePoint& tp) : time_point_(tp) {}
 
+    // 允许从任意 std::chrono::time_point 构造（不同duration/clock）
+    template<typename ClockType, typename DurationType>
+    Time(const std::chrono::time_point<ClockType, DurationType>& tp)
+        : time_point_(std::chrono::time_point_cast<TimePoint::duration>(tp)) {}
+
     // 获取当前时间
     static Time now() {
         return Time(Clock::now());

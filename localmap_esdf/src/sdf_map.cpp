@@ -195,8 +195,12 @@ double SDFMap::getDistWithGradTrilinear(Eigen::Vector3d pos, Eigen::Vector3d& gr
 template <typename F_get_val, typename F_set_val>
 void SDFMap::fillESDF(F_get_val f_get_val, F_set_val f_set_val, int start, int end, int dim)
 {
-  int v[grid_size(dim)];
-  double z[grid_size(dim) + 1];
+  int n = grid_size(dim);
+  if (n <= 0)
+    return;
+
+  std::vector<int> v(n);
+  std::vector<double> z(n + 1);
 
   int k = start;
   v[start] = start;

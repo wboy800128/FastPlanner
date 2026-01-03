@@ -1,0 +1,1702 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:19 (project)"
+    message: |
+      The system is: Windows - 10.0.26200 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:19 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.14.19+164abd434
+      鐢熸垚鍚姩鏃堕棿涓?2026/1/3 16:45:08銆?
+      
+      鑺傜偣 1 涓婄殑椤圭洰鈥淒:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\3.31.10\\CompilerIdC\\CompilerIdC.vcxproj鈥?榛樿鐩爣)銆?
+      PrepareForBuild:
+        姝ｅ湪鍒涘缓鐩綍鈥淒ebug\\鈥濄€?
+        宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+        姝ｅ湪鍒涘缓鐩綍鈥淒ebug\\CompilerIdC.tlog\\鈥濄€?
+      InitializeBuildStatus:
+        姝ｅ湪鍒涘缓鈥淒ebug\\CompilerIdC.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+        姝ｅ湪瀵光€淒ebug\\CompilerIdC.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+      VcpkgTripletSelection:
+        Using triplet "x64-windows" from "D:\\GitHub\\vcpkg\\installed\\x64-windows\\"
+        Using normalized configuration "Release"
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /I"D:\\GitHub\\vcpkg\\installed\\x64-windows\\include" /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"D:\\GitHub\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"D:\\GitHub\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "D:\\GitHub\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\3.31.10\\CompilerIdC\\CompilerIdC.exe
+      AppLocalFromInstalled:
+        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "D:\\GitHub\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\3.31.10\\CompilerIdC\\CompilerIdC.exe" "D:\\GitHub\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+        'pwsh.exe' 涓嶆槸鍐呴儴鎴栧閮ㄥ懡浠わ紝涔熶笉鏄彲杩愯鐨勭▼搴?
+        鎴栨壒澶勭悊鏂囦欢銆?
+        鍛戒护鈥減wsh.exe -ExecutionPolicy Bypass -noprofile -File "D:\\GitHub\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\3.31.10\\CompilerIdC\\CompilerIdC.exe" "D:\\GitHub\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"鈥濆凡閫€鍑猴紝浠ｇ爜涓?9009銆?
+        "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "D:\\GitHub\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\3.31.10\\CompilerIdC\\CompilerIdC.exe" "D:\\GitHub\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        姝ｅ湪鍒犻櫎鏂囦欢鈥淒ebug\\CompilerIdC.tlog\\unsuccessfulbuild鈥濄€?
+        姝ｅ湪瀵光€淒ebug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+      宸插畬鎴愮敓鎴愰」鐩€淒:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\3.31.10\\CompilerIdC\\CompilerIdC.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+      
+      宸叉垚鍔熺敓鎴愩€?
+          0 涓鍛?
+          0 涓敊璇?
+      
+      宸茬敤鏃堕棿 00:00:00.68
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        D:/GitHub/FastPlanner/files/nlopt-master/build/CMakeFiles/3.31.10/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:19 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.14.19+164abd434
+      鐢熸垚鍚姩鏃堕棿涓?2026/1/3 16:45:09銆?
+      
+      鑺傜偣 1 涓婄殑椤圭洰鈥淒:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\3.31.10\\CompilerIdCXX\\CompilerIdCXX.vcxproj鈥?榛樿鐩爣)銆?
+      PrepareForBuild:
+        姝ｅ湪鍒涘缓鐩綍鈥淒ebug\\鈥濄€?
+        宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+        姝ｅ湪鍒涘缓鐩綍鈥淒ebug\\CompilerIdCXX.tlog\\鈥濄€?
+      InitializeBuildStatus:
+        姝ｅ湪鍒涘缓鈥淒ebug\\CompilerIdCXX.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+        姝ｅ湪瀵光€淒ebug\\CompilerIdCXX.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+      VcpkgTripletSelection:
+        Using triplet "x64-windows" from "D:\\GitHub\\vcpkg\\installed\\x64-windows\\"
+        Using normalized configuration "Release"
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /I"D:\\GitHub\\vcpkg\\installed\\x64-windows\\include" /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"D:\\GitHub\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"D:\\GitHub\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "D:\\GitHub\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\3.31.10\\CompilerIdCXX\\CompilerIdCXX.exe
+      AppLocalFromInstalled:
+        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "D:\\GitHub\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\3.31.10\\CompilerIdCXX\\CompilerIdCXX.exe" "D:\\GitHub\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+        'pwsh.exe' 涓嶆槸鍐呴儴鎴栧閮ㄥ懡浠わ紝涔熶笉鏄彲杩愯鐨勭▼搴?
+        鎴栨壒澶勭悊鏂囦欢銆?
+        鍛戒护鈥減wsh.exe -ExecutionPolicy Bypass -noprofile -File "D:\\GitHub\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\3.31.10\\CompilerIdCXX\\CompilerIdCXX.exe" "D:\\GitHub\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"鈥濆凡閫€鍑猴紝浠ｇ爜涓?9009銆?
+        "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "D:\\GitHub\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\3.31.10\\CompilerIdCXX\\CompilerIdCXX.exe" "D:\\GitHub\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        姝ｅ湪鍒犻櫎鏂囦欢鈥淒ebug\\CompilerIdCXX.tlog\\unsuccessfulbuild鈥濄€?
+        姝ｅ湪瀵光€淒ebug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+      宸插畬鎴愮敓鎴愰」鐩€淒:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\3.31.10\\CompilerIdCXX\\CompilerIdCXX.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+      
+      宸叉垚鍔熺敓鎴愩€?
+          0 涓鍛?
+          0 涓敊璇?
+      
+      宸茬敤鏃堕棿 00:00:00.67
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        D:/GitHub/FastPlanner/files/nlopt-master/build/CMakeFiles/3.31.10/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:19 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "D:/GitHub/FastPlanner/files/nlopt-master/build/CMakeFiles/CMakeScratch/TryCompile-wigj53"
+      binary: "D:/GitHub/FastPlanner/files/nlopt-master/build/CMakeFiles/CMakeScratch/TryCompile-wigj53"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/GitHub/FastPlanner/files/nlopt-master/build/CMakeFiles/CMakeScratch/TryCompile-wigj53'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_ec5d6.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.14.19+164abd434
+        鐢熸垚鍚姩鏃堕棿涓?2026/1/3 16:45:10銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淒:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wigj53\\cmTC_ec5d6.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_ec5d6.dir\\Debug\\鈥濄€?
+          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+          姝ｅ湪鍒涘缓鐩綍鈥淒:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wigj53\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_ec5d6.dir\\Debug\\cmTC_ec5d6.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_ec5d6.dir\\Debug\\cmTC_ec5d6.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_ec5d6.dir\\Debug\\cmTC_ec5d6.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "D:\\GitHub\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Debug"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /I"D:\\GitHub\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ec5d6.dir\\Debug\\\\" /Fd"cmTC_ec5d6.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.44.35215 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          cl /c /I"D:\\GitHub\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ec5d6.dir\\Debug\\\\" /Fd"cmTC_ec5d6.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wigj53\\Debug\\cmTC_ec5d6.exe" /INCREMENTAL /ILK:"cmTC_ec5d6.dir\\Debug\\cmTC_ec5d6.ilk" /NOLOGO /LIBPATH:"D:\\GitHub\\vcpkg\\installed\\x64-windows\\debug\\lib" /LIBPATH:"D:\\GitHub\\vcpkg\\installed\\x64-windows\\debug\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "D:\\GitHub\\vcpkg\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/GitHub/FastPlanner/files/nlopt-master/build/CMakeFiles/CMakeScratch/TryCompile-wigj53/Debug/cmTC_ec5d6.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/GitHub/FastPlanner/files/nlopt-master/build/CMakeFiles/CMakeScratch/TryCompile-wigj53/Debug/cmTC_ec5d6.lib" /MACHINE:X64  /machine:x64 cmTC_ec5d6.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_ec5d6.vcxproj -> D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wigj53\\Debug\\cmTC_ec5d6.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "D:\\GitHub\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wigj53\\Debug\\cmTC_ec5d6.exe" "D:\\GitHub\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_ec5d6.dir\\Debug\\cmTC_ec5d6.tlog\\cmTC_ec5d6.write.1u.tlog" "cmTC_ec5d6.dir\\Debug\\vcpkg.applocal.log"
+          'pwsh.exe' 涓嶆槸鍐呴儴鎴栧閮ㄥ懡浠わ紝涔熶笉鏄彲杩愯鐨勭▼搴?
+          鎴栨壒澶勭悊鏂囦欢銆?
+          鍛戒护鈥減wsh.exe -ExecutionPolicy Bypass -noprofile -File "D:\\GitHub\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wigj53\\Debug\\cmTC_ec5d6.exe" "D:\\GitHub\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_ec5d6.dir\\Debug\\cmTC_ec5d6.tlog\\cmTC_ec5d6.write.1u.tlog" "cmTC_ec5d6.dir\\Debug\\vcpkg.applocal.log"鈥濆凡閫€鍑猴紝浠ｇ爜涓?9009銆?
+          "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "D:\\GitHub\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wigj53\\Debug\\cmTC_ec5d6.exe" "D:\\GitHub\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_ec5d6.dir\\Debug\\cmTC_ec5d6.tlog\\cmTC_ec5d6.write.1u.tlog" "cmTC_ec5d6.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_ec5d6.dir\\Debug\\cmTC_ec5d6.tlog\\unsuccessfulbuild鈥濄€?
+          姝ｅ湪瀵光€渃mTC_ec5d6.dir\\Debug\\cmTC_ec5d6.tlog\\cmTC_ec5d6.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+        宸插畬鎴愮敓鎴愰」鐩€淒:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wigj53\\cmTC_ec5d6.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+        
+        宸叉垚鍔熺敓鎴愩€?
+            0 涓鍛?
+            0 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:00.71
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:19 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:19 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.44.35215.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:19 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "D:/GitHub/FastPlanner/files/nlopt-master/build/CMakeFiles/CMakeScratch/TryCompile-mng39e"
+      binary: "D:/GitHub/FastPlanner/files/nlopt-master/build/CMakeFiles/CMakeScratch/TryCompile-mng39e"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/GitHub/FastPlanner/files/nlopt-master/build/CMakeFiles/CMakeScratch/TryCompile-mng39e'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_d8390.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.14.19+164abd434
+        鐢熸垚鍚姩鏃堕棿涓?2026/1/3 16:45:11銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淒:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mng39e\\cmTC_d8390.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_d8390.dir\\Debug\\鈥濄€?
+          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+          姝ｅ湪鍒涘缓鐩綍鈥淒:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mng39e\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_d8390.dir\\Debug\\cmTC_d8390.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_d8390.dir\\Debug\\cmTC_d8390.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_d8390.dir\\Debug\\cmTC_d8390.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "D:\\GitHub\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Debug"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /I"D:\\GitHub\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_d8390.dir\\Debug\\\\" /Fd"cmTC_d8390.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.44.35215 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          cl /c /I"D:\\GitHub\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_d8390.dir\\Debug\\\\" /Fd"cmTC_d8390.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mng39e\\Debug\\cmTC_d8390.exe" /INCREMENTAL /ILK:"cmTC_d8390.dir\\Debug\\cmTC_d8390.ilk" /NOLOGO /LIBPATH:"D:\\GitHub\\vcpkg\\installed\\x64-windows\\debug\\lib" /LIBPATH:"D:\\GitHub\\vcpkg\\installed\\x64-windows\\debug\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "D:\\GitHub\\vcpkg\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/GitHub/FastPlanner/files/nlopt-master/build/CMakeFiles/CMakeScratch/TryCompile-mng39e/Debug/cmTC_d8390.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/GitHub/FastPlanner/files/nlopt-master/build/CMakeFiles/CMakeScratch/TryCompile-mng39e/Debug/cmTC_d8390.lib" /MACHINE:X64  /machine:x64 cmTC_d8390.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_d8390.vcxproj -> D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mng39e\\Debug\\cmTC_d8390.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "D:\\GitHub\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mng39e\\Debug\\cmTC_d8390.exe" "D:\\GitHub\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_d8390.dir\\Debug\\cmTC_d8390.tlog\\cmTC_d8390.write.1u.tlog" "cmTC_d8390.dir\\Debug\\vcpkg.applocal.log"
+          'pwsh.exe' 涓嶆槸鍐呴儴鎴栧閮ㄥ懡浠わ紝涔熶笉鏄彲杩愯鐨勭▼搴?
+          鎴栨壒澶勭悊鏂囦欢銆?
+          鍛戒护鈥減wsh.exe -ExecutionPolicy Bypass -noprofile -File "D:\\GitHub\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mng39e\\Debug\\cmTC_d8390.exe" "D:\\GitHub\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_d8390.dir\\Debug\\cmTC_d8390.tlog\\cmTC_d8390.write.1u.tlog" "cmTC_d8390.dir\\Debug\\vcpkg.applocal.log"鈥濆凡閫€鍑猴紝浠ｇ爜涓?9009銆?
+          "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "D:\\GitHub\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mng39e\\Debug\\cmTC_d8390.exe" "D:\\GitHub\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_d8390.dir\\Debug\\cmTC_d8390.tlog\\cmTC_d8390.write.1u.tlog" "cmTC_d8390.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_d8390.dir\\Debug\\cmTC_d8390.tlog\\unsuccessfulbuild鈥濄€?
+          姝ｅ湪瀵光€渃mTC_d8390.dir\\Debug\\cmTC_d8390.tlog\\cmTC_d8390.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+        宸插畬鎴愮敓鎴愰」鐩€淒:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mng39e\\cmTC_d8390.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+        
+        宸叉垚鍔熺敓鎴愩€?
+            0 涓鍛?
+            0 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:00.73
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:19 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:19 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.44.35215.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "CMakeLists.txt:85 (check_include_file)"
+    checks:
+      - "Looking for getopt.h"
+    directories:
+      source: "D:/GitHub/FastPlanner/files/nlopt-master/build/CMakeFiles/CMakeScratch/TryCompile-6krt75"
+      binary: "D:/GitHub/FastPlanner/files/nlopt-master/build/CMakeFiles/CMakeScratch/TryCompile-6krt75"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/GitHub/FastPlanner/files/nlopt-master/cmake"
+    buildResult:
+      variable: "HAVE_GETOPT_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/GitHub/FastPlanner/files/nlopt-master/build/CMakeFiles/CMakeScratch/TryCompile-6krt75'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_feab0.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.14.19+164abd434
+        鐢熸垚鍚姩鏃堕棿涓?2026/1/3 16:45:12銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淒:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6krt75\\cmTC_feab0.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_feab0.dir\\Debug\\鈥濄€?
+          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+          姝ｅ湪鍒涘缓鐩綍鈥淒:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6krt75\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_feab0.dir\\Debug\\cmTC_feab0.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_feab0.dir\\Debug\\cmTC_feab0.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_feab0.dir\\Debug\\cmTC_feab0.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "D:\\GitHub\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Debug"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /I"D:\\GitHub\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_feab0.dir\\Debug\\\\" /Fd"cmTC_feab0.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6krt75\\CheckIncludeFile.c"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.44.35215 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          cl /c /I"D:\\GitHub\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_feab0.dir\\Debug\\\\" /Fd"cmTC_feab0.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6krt75\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6krt75\\CheckIncludeFile.c(1,10): error C1083: 鏃犳硶鎵撳紑鍖呮嫭鏂囦欢: 鈥済etopt.h鈥? No such file or directory [D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6krt75\\cmTC_feab0.vcxproj]
+        宸插畬鎴愮敓鎴愰」鐩€淒:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6krt75\\cmTC_feab0.vcxproj鈥?榛樿鐩爣)鐨勬搷浣?- 澶辫触銆?
+        
+        鐢熸垚澶辫触銆?
+        
+        鈥淒:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6krt75\\cmTC_feab0.vcxproj鈥?榛樿鐩爣) (1) ->
+        (ClCompile 鐩爣) -> 
+          D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6krt75\\CheckIncludeFile.c(1,10): error C1083: 鏃犳硶鎵撳紑鍖呮嫭鏂囦欢: 鈥済etopt.h鈥? No such file or directory [D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6krt75\\cmTC_feab0.vcxproj]
+        
+            0 涓鍛?
+            1 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:00.24
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "CMakeLists.txt:86 (check_include_file)"
+    checks:
+      - "Looking for unistd.h"
+    directories:
+      source: "D:/GitHub/FastPlanner/files/nlopt-master/build/CMakeFiles/CMakeScratch/TryCompile-ra9rch"
+      binary: "D:/GitHub/FastPlanner/files/nlopt-master/build/CMakeFiles/CMakeScratch/TryCompile-ra9rch"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/GitHub/FastPlanner/files/nlopt-master/cmake"
+    buildResult:
+      variable: "HAVE_UNISTD_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/GitHub/FastPlanner/files/nlopt-master/build/CMakeFiles/CMakeScratch/TryCompile-ra9rch'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_de952.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.14.19+164abd434
+        鐢熸垚鍚姩鏃堕棿涓?2026/1/3 16:45:13銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淒:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ra9rch\\cmTC_de952.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_de952.dir\\Debug\\鈥濄€?
+          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+          姝ｅ湪鍒涘缓鐩綍鈥淒:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ra9rch\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_de952.dir\\Debug\\cmTC_de952.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_de952.dir\\Debug\\cmTC_de952.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_de952.dir\\Debug\\cmTC_de952.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "D:\\GitHub\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Debug"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /I"D:\\GitHub\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_de952.dir\\Debug\\\\" /Fd"cmTC_de952.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ra9rch\\CheckIncludeFile.c"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.44.35215 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          cl /c /I"D:\\GitHub\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_de952.dir\\Debug\\\\" /Fd"cmTC_de952.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ra9rch\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ra9rch\\CheckIncludeFile.c(1,10): error C1083: 鏃犳硶鎵撳紑鍖呮嫭鏂囦欢: 鈥渦nistd.h鈥? No such file or directory [D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ra9rch\\cmTC_de952.vcxproj]
+        宸插畬鎴愮敓鎴愰」鐩€淒:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ra9rch\\cmTC_de952.vcxproj鈥?榛樿鐩爣)鐨勬搷浣?- 澶辫触銆?
+        
+        鐢熸垚澶辫触銆?
+        
+        鈥淒:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ra9rch\\cmTC_de952.vcxproj鈥?榛樿鐩爣) (1) ->
+        (ClCompile 鐩爣) -> 
+          D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ra9rch\\CheckIncludeFile.c(1,10): error C1083: 鏃犳硶鎵撳紑鍖呮嫭鏂囦欢: 鈥渦nistd.h鈥? No such file or directory [D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ra9rch\\cmTC_de952.vcxproj]
+        
+            0 涓鍛?
+            1 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:00.24
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "CMakeLists.txt:87 (check_include_file)"
+    checks:
+      - "Looking for stdint.h"
+    directories:
+      source: "D:/GitHub/FastPlanner/files/nlopt-master/build/CMakeFiles/CMakeScratch/TryCompile-s4gmzm"
+      binary: "D:/GitHub/FastPlanner/files/nlopt-master/build/CMakeFiles/CMakeScratch/TryCompile-s4gmzm"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/GitHub/FastPlanner/files/nlopt-master/cmake"
+    buildResult:
+      variable: "HAVE_STDINT_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/GitHub/FastPlanner/files/nlopt-master/build/CMakeFiles/CMakeScratch/TryCompile-s4gmzm'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_e48a6.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.14.19+164abd434
+        鐢熸垚鍚姩鏃堕棿涓?2026/1/3 16:45:13銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淒:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s4gmzm\\cmTC_e48a6.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_e48a6.dir\\Debug\\鈥濄€?
+          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+          姝ｅ湪鍒涘缓鐩綍鈥淒:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s4gmzm\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_e48a6.dir\\Debug\\cmTC_e48a6.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_e48a6.dir\\Debug\\cmTC_e48a6.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_e48a6.dir\\Debug\\cmTC_e48a6.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "D:\\GitHub\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Debug"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /I"D:\\GitHub\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e48a6.dir\\Debug\\\\" /Fd"cmTC_e48a6.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s4gmzm\\CheckIncludeFile.c"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.44.35215 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          cl /c /I"D:\\GitHub\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e48a6.dir\\Debug\\\\" /Fd"cmTC_e48a6.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s4gmzm\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s4gmzm\\Debug\\cmTC_e48a6.exe" /INCREMENTAL /ILK:"cmTC_e48a6.dir\\Debug\\cmTC_e48a6.ilk" /NOLOGO /LIBPATH:"D:\\GitHub\\vcpkg\\installed\\x64-windows\\debug\\lib" /LIBPATH:"D:\\GitHub\\vcpkg\\installed\\x64-windows\\debug\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "D:\\GitHub\\vcpkg\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/GitHub/FastPlanner/files/nlopt-master/build/CMakeFiles/CMakeScratch/TryCompile-s4gmzm/Debug/cmTC_e48a6.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/GitHub/FastPlanner/files/nlopt-master/build/CMakeFiles/CMakeScratch/TryCompile-s4gmzm/Debug/cmTC_e48a6.lib" /MACHINE:X64  /machine:x64 cmTC_e48a6.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_e48a6.vcxproj -> D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s4gmzm\\Debug\\cmTC_e48a6.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "D:\\GitHub\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s4gmzm\\Debug\\cmTC_e48a6.exe" "D:\\GitHub\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_e48a6.dir\\Debug\\cmTC_e48a6.tlog\\cmTC_e48a6.write.1u.tlog" "cmTC_e48a6.dir\\Debug\\vcpkg.applocal.log"
+          'pwsh.exe' 涓嶆槸鍐呴儴鎴栧閮ㄥ懡浠わ紝涔熶笉鏄彲杩愯鐨勭▼搴?
+          鎴栨壒澶勭悊鏂囦欢銆?
+          鍛戒护鈥減wsh.exe -ExecutionPolicy Bypass -noprofile -File "D:\\GitHub\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s4gmzm\\Debug\\cmTC_e48a6.exe" "D:\\GitHub\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_e48a6.dir\\Debug\\cmTC_e48a6.tlog\\cmTC_e48a6.write.1u.tlog" "cmTC_e48a6.dir\\Debug\\vcpkg.applocal.log"鈥濆凡閫€鍑猴紝浠ｇ爜涓?9009銆?
+          "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "D:\\GitHub\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s4gmzm\\Debug\\cmTC_e48a6.exe" "D:\\GitHub\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_e48a6.dir\\Debug\\cmTC_e48a6.tlog\\cmTC_e48a6.write.1u.tlog" "cmTC_e48a6.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_e48a6.dir\\Debug\\cmTC_e48a6.tlog\\unsuccessfulbuild鈥濄€?
+          姝ｅ湪瀵光€渃mTC_e48a6.dir\\Debug\\cmTC_e48a6.tlog\\cmTC_e48a6.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+        宸插畬鎴愮敓鎴愰」鐩€淒:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s4gmzm\\cmTC_e48a6.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+        
+        宸叉垚鍔熺敓鎴愩€?
+            0 涓鍛?
+            0 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:00.71
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "CMakeLists.txt:88 (check_include_file)"
+    checks:
+      - "Looking for time.h"
+    directories:
+      source: "D:/GitHub/FastPlanner/files/nlopt-master/build/CMakeFiles/CMakeScratch/TryCompile-2h0lo6"
+      binary: "D:/GitHub/FastPlanner/files/nlopt-master/build/CMakeFiles/CMakeScratch/TryCompile-2h0lo6"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/GitHub/FastPlanner/files/nlopt-master/cmake"
+    buildResult:
+      variable: "HAVE_TIME_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/GitHub/FastPlanner/files/nlopt-master/build/CMakeFiles/CMakeScratch/TryCompile-2h0lo6'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_4845d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.14.19+164abd434
+        鐢熸垚鍚姩鏃堕棿涓?2026/1/3 16:45:14銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淒:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2h0lo6\\cmTC_4845d.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_4845d.dir\\Debug\\鈥濄€?
+          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+          姝ｅ湪鍒涘缓鐩綍鈥淒:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2h0lo6\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_4845d.dir\\Debug\\cmTC_4845d.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_4845d.dir\\Debug\\cmTC_4845d.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_4845d.dir\\Debug\\cmTC_4845d.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "D:\\GitHub\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Debug"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /I"D:\\GitHub\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4845d.dir\\Debug\\\\" /Fd"cmTC_4845d.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2h0lo6\\CheckIncludeFile.c"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.44.35215 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          cl /c /I"D:\\GitHub\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4845d.dir\\Debug\\\\" /Fd"cmTC_4845d.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2h0lo6\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2h0lo6\\Debug\\cmTC_4845d.exe" /INCREMENTAL /ILK:"cmTC_4845d.dir\\Debug\\cmTC_4845d.ilk" /NOLOGO /LIBPATH:"D:\\GitHub\\vcpkg\\installed\\x64-windows\\debug\\lib" /LIBPATH:"D:\\GitHub\\vcpkg\\installed\\x64-windows\\debug\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "D:\\GitHub\\vcpkg\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/GitHub/FastPlanner/files/nlopt-master/build/CMakeFiles/CMakeScratch/TryCompile-2h0lo6/Debug/cmTC_4845d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/GitHub/FastPlanner/files/nlopt-master/build/CMakeFiles/CMakeScratch/TryCompile-2h0lo6/Debug/cmTC_4845d.lib" /MACHINE:X64  /machine:x64 cmTC_4845d.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_4845d.vcxproj -> D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2h0lo6\\Debug\\cmTC_4845d.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "D:\\GitHub\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2h0lo6\\Debug\\cmTC_4845d.exe" "D:\\GitHub\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_4845d.dir\\Debug\\cmTC_4845d.tlog\\cmTC_4845d.write.1u.tlog" "cmTC_4845d.dir\\Debug\\vcpkg.applocal.log"
+          'pwsh.exe' 涓嶆槸鍐呴儴鎴栧閮ㄥ懡浠わ紝涔熶笉鏄彲杩愯鐨勭▼搴?
+          鎴栨壒澶勭悊鏂囦欢銆?
+          鍛戒护鈥減wsh.exe -ExecutionPolicy Bypass -noprofile -File "D:\\GitHub\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2h0lo6\\Debug\\cmTC_4845d.exe" "D:\\GitHub\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_4845d.dir\\Debug\\cmTC_4845d.tlog\\cmTC_4845d.write.1u.tlog" "cmTC_4845d.dir\\Debug\\vcpkg.applocal.log"鈥濆凡閫€鍑猴紝浠ｇ爜涓?9009銆?
+          "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "D:\\GitHub\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2h0lo6\\Debug\\cmTC_4845d.exe" "D:\\GitHub\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_4845d.dir\\Debug\\cmTC_4845d.tlog\\cmTC_4845d.write.1u.tlog" "cmTC_4845d.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_4845d.dir\\Debug\\cmTC_4845d.tlog\\unsuccessfulbuild鈥濄€?
+          姝ｅ湪瀵光€渃mTC_4845d.dir\\Debug\\cmTC_4845d.tlog\\cmTC_4845d.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+        宸插畬鎴愮敓鎴愰」鐩€淒:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2h0lo6\\cmTC_4845d.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+        
+        宸叉垚鍔熺敓鎴愩€?
+            0 涓鍛?
+            0 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:00.73
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "CMakeLists.txt:89 (check_include_file)"
+    checks:
+      - "Looking for sys/time.h"
+    directories:
+      source: "D:/GitHub/FastPlanner/files/nlopt-master/build/CMakeFiles/CMakeScratch/TryCompile-kx5i4n"
+      binary: "D:/GitHub/FastPlanner/files/nlopt-master/build/CMakeFiles/CMakeScratch/TryCompile-kx5i4n"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/GitHub/FastPlanner/files/nlopt-master/cmake"
+    buildResult:
+      variable: "HAVE_SYS_TIME_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/GitHub/FastPlanner/files/nlopt-master/build/CMakeFiles/CMakeScratch/TryCompile-kx5i4n'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_43e10.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.14.19+164abd434
+        鐢熸垚鍚姩鏃堕棿涓?2026/1/3 16:45:15銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淒:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kx5i4n\\cmTC_43e10.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_43e10.dir\\Debug\\鈥濄€?
+          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+          姝ｅ湪鍒涘缓鐩綍鈥淒:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kx5i4n\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_43e10.dir\\Debug\\cmTC_43e10.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_43e10.dir\\Debug\\cmTC_43e10.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_43e10.dir\\Debug\\cmTC_43e10.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "D:\\GitHub\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Debug"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /I"D:\\GitHub\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_43e10.dir\\Debug\\\\" /Fd"cmTC_43e10.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kx5i4n\\CheckIncludeFile.c"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.44.35215 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          cl /c /I"D:\\GitHub\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_43e10.dir\\Debug\\\\" /Fd"cmTC_43e10.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kx5i4n\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kx5i4n\\CheckIncludeFile.c(1,10): error C1083: 鏃犳硶鎵撳紑鍖呮嫭鏂囦欢: 鈥渟ys/time.h鈥? No such file or directory [D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kx5i4n\\cmTC_43e10.vcxproj]
+        宸插畬鎴愮敓鎴愰」鐩€淒:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kx5i4n\\cmTC_43e10.vcxproj鈥?榛樿鐩爣)鐨勬搷浣?- 澶辫触銆?
+        
+        鐢熸垚澶辫触銆?
+        
+        鈥淒:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kx5i4n\\cmTC_43e10.vcxproj鈥?榛樿鐩爣) (1) ->
+        (ClCompile 鐩爣) -> 
+          D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kx5i4n\\CheckIncludeFile.c(1,10): error C1083: 鏃犳硶鎵撳紑鍖呮嫭鏂囦欢: 鈥渟ys/time.h鈥? No such file or directory [D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kx5i4n\\cmTC_43e10.vcxproj]
+        
+            0 涓鍛?
+            1 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:00.23
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckFunctionExists.cmake:93 (try_compile)"
+      - "CMakeLists.txt:93 (check_function_exists)"
+    checks:
+      - "Looking for getpid"
+    directories:
+      source: "D:/GitHub/FastPlanner/files/nlopt-master/build/CMakeFiles/CMakeScratch/TryCompile-9l5org"
+      binary: "D:/GitHub/FastPlanner/files/nlopt-master/build/CMakeFiles/CMakeScratch/TryCompile-9l5org"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/GitHub/FastPlanner/files/nlopt-master/cmake"
+    buildResult:
+      variable: "HAVE_GETPID"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/GitHub/FastPlanner/files/nlopt-master/build/CMakeFiles/CMakeScratch/TryCompile-9l5org'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_88c3c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.14.19+164abd434
+        鐢熸垚鍚姩鏃堕棿涓?2026/1/3 16:45:16銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淒:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9l5org\\cmTC_88c3c.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_88c3c.dir\\Debug\\鈥濄€?
+          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+          姝ｅ湪鍒涘缓鐩綍鈥淒:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9l5org\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_88c3c.dir\\Debug\\cmTC_88c3c.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_88c3c.dir\\Debug\\cmTC_88c3c.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_88c3c.dir\\Debug\\cmTC_88c3c.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "D:\\GitHub\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Debug"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /I"D:\\GitHub\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=getpid /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_88c3c.dir\\Debug\\\\" /Fd"cmTC_88c3c.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9l5org\\CheckFunctionExists.c"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.44.35215 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          cl /c /I"D:\\GitHub\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=getpid /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_88c3c.dir\\Debug\\\\" /Fd"cmTC_88c3c.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9l5org\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9l5org\\Debug\\cmTC_88c3c.exe" /INCREMENTAL /ILK:"cmTC_88c3c.dir\\Debug\\cmTC_88c3c.ilk" /NOLOGO /LIBPATH:"D:\\GitHub\\vcpkg\\installed\\x64-windows\\debug\\lib" /LIBPATH:"D:\\GitHub\\vcpkg\\installed\\x64-windows\\debug\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "D:\\GitHub\\vcpkg\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/GitHub/FastPlanner/files/nlopt-master/build/CMakeFiles/CMakeScratch/TryCompile-9l5org/Debug/cmTC_88c3c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/GitHub/FastPlanner/files/nlopt-master/build/CMakeFiles/CMakeScratch/TryCompile-9l5org/Debug/cmTC_88c3c.lib" /MACHINE:X64  /machine:x64 cmTC_88c3c.dir\\Debug\\CheckFunctionExists.obj
+          cmTC_88c3c.vcxproj -> D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9l5org\\Debug\\cmTC_88c3c.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "D:\\GitHub\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9l5org\\Debug\\cmTC_88c3c.exe" "D:\\GitHub\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_88c3c.dir\\Debug\\cmTC_88c3c.tlog\\cmTC_88c3c.write.1u.tlog" "cmTC_88c3c.dir\\Debug\\vcpkg.applocal.log"
+          'pwsh.exe' 涓嶆槸鍐呴儴鎴栧閮ㄥ懡浠わ紝涔熶笉鏄彲杩愯鐨勭▼搴?
+          鎴栨壒澶勭悊鏂囦欢銆?
+          鍛戒护鈥減wsh.exe -ExecutionPolicy Bypass -noprofile -File "D:\\GitHub\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9l5org\\Debug\\cmTC_88c3c.exe" "D:\\GitHub\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_88c3c.dir\\Debug\\cmTC_88c3c.tlog\\cmTC_88c3c.write.1u.tlog" "cmTC_88c3c.dir\\Debug\\vcpkg.applocal.log"鈥濆凡閫€鍑猴紝浠ｇ爜涓?9009銆?
+          "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "D:\\GitHub\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9l5org\\Debug\\cmTC_88c3c.exe" "D:\\GitHub\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_88c3c.dir\\Debug\\cmTC_88c3c.tlog\\cmTC_88c3c.write.1u.tlog" "cmTC_88c3c.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_88c3c.dir\\Debug\\cmTC_88c3c.tlog\\unsuccessfulbuild鈥濄€?
+          姝ｅ湪瀵光€渃mTC_88c3c.dir\\Debug\\cmTC_88c3c.tlog\\cmTC_88c3c.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+        宸插畬鎴愮敓鎴愰」鐩€淒:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9l5org\\cmTC_88c3c.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+        
+        宸叉垚鍔熺敓鎴愩€?
+            0 涓鍛?
+            0 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:00.71
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckFunctionExists.cmake:93 (try_compile)"
+      - "CMakeLists.txt:94 (check_function_exists)"
+    checks:
+      - "Looking for syscall"
+    directories:
+      source: "D:/GitHub/FastPlanner/files/nlopt-master/build/CMakeFiles/CMakeScratch/TryCompile-46hdxw"
+      binary: "D:/GitHub/FastPlanner/files/nlopt-master/build/CMakeFiles/CMakeScratch/TryCompile-46hdxw"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/GitHub/FastPlanner/files/nlopt-master/cmake"
+    buildResult:
+      variable: "HAVE_GETTID_SYSCALL"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/GitHub/FastPlanner/files/nlopt-master/build/CMakeFiles/CMakeScratch/TryCompile-46hdxw'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_c6816.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.14.19+164abd434
+        鐢熸垚鍚姩鏃堕棿涓?2026/1/3 16:45:17銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淒:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-46hdxw\\cmTC_c6816.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_c6816.dir\\Debug\\鈥濄€?
+          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+          姝ｅ湪鍒涘缓鐩綍鈥淒:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-46hdxw\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_c6816.dir\\Debug\\cmTC_c6816.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_c6816.dir\\Debug\\cmTC_c6816.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_c6816.dir\\Debug\\cmTC_c6816.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "D:\\GitHub\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Debug"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /I"D:\\GitHub\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=syscall /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c6816.dir\\Debug\\\\" /Fd"cmTC_c6816.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-46hdxw\\CheckFunctionExists.c"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.44.35215 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          cl /c /I"D:\\GitHub\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=syscall /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c6816.dir\\Debug\\\\" /Fd"cmTC_c6816.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-46hdxw\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-46hdxw\\Debug\\cmTC_c6816.exe" /INCREMENTAL /ILK:"cmTC_c6816.dir\\Debug\\cmTC_c6816.ilk" /NOLOGO /LIBPATH:"D:\\GitHub\\vcpkg\\installed\\x64-windows\\debug\\lib" /LIBPATH:"D:\\GitHub\\vcpkg\\installed\\x64-windows\\debug\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "D:\\GitHub\\vcpkg\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/GitHub/FastPlanner/files/nlopt-master/build/CMakeFiles/CMakeScratch/TryCompile-46hdxw/Debug/cmTC_c6816.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/GitHub/FastPlanner/files/nlopt-master/build/CMakeFiles/CMakeScratch/TryCompile-46hdxw/Debug/cmTC_c6816.lib" /MACHINE:X64  /machine:x64 cmTC_c6816.dir\\Debug\\CheckFunctionExists.obj
+        CheckFunctionExists.obj : error LNK2019: 鏃犳硶瑙ｆ瀽鐨勫閮ㄧ鍙?syscall锛屽嚱鏁?main 涓紩鐢ㄤ簡璇ョ鍙?[D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-46hdxw\\cmTC_c6816.vcxproj]
+        D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-46hdxw\\Debug\\cmTC_c6816.exe : fatal error LNK1120: 1 涓棤娉曡В鏋愮殑澶栭儴鍛戒护 [D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-46hdxw\\cmTC_c6816.vcxproj]
+        宸插畬鎴愮敓鎴愰」鐩€淒:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-46hdxw\\cmTC_c6816.vcxproj鈥?榛樿鐩爣)鐨勬搷浣?- 澶辫触銆?
+        
+        鐢熸垚澶辫触銆?
+        
+        鈥淒:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-46hdxw\\cmTC_c6816.vcxproj鈥?榛樿鐩爣) (1) ->
+        (Link 鐩爣) -> 
+          CheckFunctionExists.obj : error LNK2019: 鏃犳硶瑙ｆ瀽鐨勫閮ㄧ鍙?syscall锛屽嚱鏁?main 涓紩鐢ㄤ簡璇ョ鍙?[D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-46hdxw\\cmTC_c6816.vcxproj]
+          D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-46hdxw\\Debug\\cmTC_c6816.exe : fatal error LNK1120: 1 涓棤娉曡В鏋愮殑澶栭儴鍛戒护 [D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-46hdxw\\cmTC_c6816.vcxproj]
+        
+            0 涓鍛?
+            2 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:00.35
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckFunctionExists.cmake:93 (try_compile)"
+      - "CMakeLists.txt:95 (check_function_exists)"
+    checks:
+      - "Looking for isinf"
+    directories:
+      source: "D:/GitHub/FastPlanner/files/nlopt-master/build/CMakeFiles/CMakeScratch/TryCompile-tovag9"
+      binary: "D:/GitHub/FastPlanner/files/nlopt-master/build/CMakeFiles/CMakeScratch/TryCompile-tovag9"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/GitHub/FastPlanner/files/nlopt-master/cmake"
+    buildResult:
+      variable: "HAVE_ISINF"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/GitHub/FastPlanner/files/nlopt-master/build/CMakeFiles/CMakeScratch/TryCompile-tovag9'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_4666d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.14.19+164abd434
+        鐢熸垚鍚姩鏃堕棿涓?2026/1/3 16:45:17銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淒:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tovag9\\cmTC_4666d.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_4666d.dir\\Debug\\鈥濄€?
+          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+          姝ｅ湪鍒涘缓鐩綍鈥淒:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tovag9\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_4666d.dir\\Debug\\cmTC_4666d.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_4666d.dir\\Debug\\cmTC_4666d.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_4666d.dir\\Debug\\cmTC_4666d.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "D:\\GitHub\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Debug"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /I"D:\\GitHub\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=isinf /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4666d.dir\\Debug\\\\" /Fd"cmTC_4666d.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tovag9\\CheckFunctionExists.c"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.44.35215 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          cl /c /I"D:\\GitHub\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=isinf /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4666d.dir\\Debug\\\\" /Fd"cmTC_4666d.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tovag9\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tovag9\\Debug\\cmTC_4666d.exe" /INCREMENTAL /ILK:"cmTC_4666d.dir\\Debug\\cmTC_4666d.ilk" /NOLOGO /LIBPATH:"D:\\GitHub\\vcpkg\\installed\\x64-windows\\debug\\lib" /LIBPATH:"D:\\GitHub\\vcpkg\\installed\\x64-windows\\debug\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "D:\\GitHub\\vcpkg\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/GitHub/FastPlanner/files/nlopt-master/build/CMakeFiles/CMakeScratch/TryCompile-tovag9/Debug/cmTC_4666d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/GitHub/FastPlanner/files/nlopt-master/build/CMakeFiles/CMakeScratch/TryCompile-tovag9/Debug/cmTC_4666d.lib" /MACHINE:X64  /machine:x64 cmTC_4666d.dir\\Debug\\CheckFunctionExists.obj
+        CheckFunctionExists.obj : error LNK2019: 鏃犳硶瑙ｆ瀽鐨勫閮ㄧ鍙?isinf锛屽嚱鏁?main 涓紩鐢ㄤ簡璇ョ鍙?[D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tovag9\\cmTC_4666d.vcxproj]
+        D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tovag9\\Debug\\cmTC_4666d.exe : fatal error LNK1120: 1 涓棤娉曡В鏋愮殑澶栭儴鍛戒护 [D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tovag9\\cmTC_4666d.vcxproj]
+        宸插畬鎴愮敓鎴愰」鐩€淒:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tovag9\\cmTC_4666d.vcxproj鈥?榛樿鐩爣)鐨勬搷浣?- 澶辫触銆?
+        
+        鐢熸垚澶辫触銆?
+        
+        鈥淒:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tovag9\\cmTC_4666d.vcxproj鈥?榛樿鐩爣) (1) ->
+        (Link 鐩爣) -> 
+          CheckFunctionExists.obj : error LNK2019: 鏃犳硶瑙ｆ瀽鐨勫閮ㄧ鍙?isinf锛屽嚱鏁?main 涓紩鐢ㄤ簡璇ョ鍙?[D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tovag9\\cmTC_4666d.vcxproj]
+          D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tovag9\\Debug\\cmTC_4666d.exe : fatal error LNK1120: 1 涓棤娉曡В鏋愮殑澶栭儴鍛戒护 [D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tovag9\\cmTC_4666d.vcxproj]
+        
+            0 涓鍛?
+            2 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:00.34
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckFunctionExists.cmake:93 (try_compile)"
+      - "CMakeLists.txt:96 (check_function_exists)"
+    checks:
+      - "Looking for isnan"
+    directories:
+      source: "D:/GitHub/FastPlanner/files/nlopt-master/build/CMakeFiles/CMakeScratch/TryCompile-lm0ujq"
+      binary: "D:/GitHub/FastPlanner/files/nlopt-master/build/CMakeFiles/CMakeScratch/TryCompile-lm0ujq"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/GitHub/FastPlanner/files/nlopt-master/cmake"
+    buildResult:
+      variable: "HAVE_ISNAN"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/GitHub/FastPlanner/files/nlopt-master/build/CMakeFiles/CMakeScratch/TryCompile-lm0ujq'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_010b1.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.14.19+164abd434
+        鐢熸垚鍚姩鏃堕棿涓?2026/1/3 16:45:18銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淒:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lm0ujq\\cmTC_010b1.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_010b1.dir\\Debug\\鈥濄€?
+          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+          姝ｅ湪鍒涘缓鐩綍鈥淒:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lm0ujq\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_010b1.dir\\Debug\\cmTC_010b1.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_010b1.dir\\Debug\\cmTC_010b1.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_010b1.dir\\Debug\\cmTC_010b1.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "D:\\GitHub\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Debug"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /I"D:\\GitHub\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=isnan /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_010b1.dir\\Debug\\\\" /Fd"cmTC_010b1.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lm0ujq\\CheckFunctionExists.c"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.44.35215 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          cl /c /I"D:\\GitHub\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=isnan /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_010b1.dir\\Debug\\\\" /Fd"cmTC_010b1.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lm0ujq\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lm0ujq\\Debug\\cmTC_010b1.exe" /INCREMENTAL /ILK:"cmTC_010b1.dir\\Debug\\cmTC_010b1.ilk" /NOLOGO /LIBPATH:"D:\\GitHub\\vcpkg\\installed\\x64-windows\\debug\\lib" /LIBPATH:"D:\\GitHub\\vcpkg\\installed\\x64-windows\\debug\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "D:\\GitHub\\vcpkg\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/GitHub/FastPlanner/files/nlopt-master/build/CMakeFiles/CMakeScratch/TryCompile-lm0ujq/Debug/cmTC_010b1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/GitHub/FastPlanner/files/nlopt-master/build/CMakeFiles/CMakeScratch/TryCompile-lm0ujq/Debug/cmTC_010b1.lib" /MACHINE:X64  /machine:x64 cmTC_010b1.dir\\Debug\\CheckFunctionExists.obj
+        CheckFunctionExists.obj : error LNK2019: 鏃犳硶瑙ｆ瀽鐨勫閮ㄧ鍙?isnan锛屽嚱鏁?main 涓紩鐢ㄤ簡璇ョ鍙?[D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lm0ujq\\cmTC_010b1.vcxproj]
+        D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lm0ujq\\Debug\\cmTC_010b1.exe : fatal error LNK1120: 1 涓棤娉曡В鏋愮殑澶栭儴鍛戒护 [D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lm0ujq\\cmTC_010b1.vcxproj]
+        宸插畬鎴愮敓鎴愰」鐩€淒:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lm0ujq\\cmTC_010b1.vcxproj鈥?榛樿鐩爣)鐨勬搷浣?- 澶辫触銆?
+        
+        鐢熸垚澶辫触銆?
+        
+        鈥淒:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lm0ujq\\cmTC_010b1.vcxproj鈥?榛樿鐩爣) (1) ->
+        (Link 鐩爣) -> 
+          CheckFunctionExists.obj : error LNK2019: 鏃犳硶瑙ｆ瀽鐨勫閮ㄧ鍙?isnan锛屽嚱鏁?main 涓紩鐢ㄤ簡璇ョ鍙?[D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lm0ujq\\cmTC_010b1.vcxproj]
+          D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lm0ujq\\Debug\\cmTC_010b1.exe : fatal error LNK1120: 1 涓棤娉曡В鏋愮殑澶栭儴鍛戒护 [D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lm0ujq\\cmTC_010b1.vcxproj]
+        
+            0 涓鍛?
+            2 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:00.34
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckFunctionExists.cmake:93 (try_compile)"
+      - "CMakeLists.txt:97 (check_function_exists)"
+    checks:
+      - "Looking for gettimeofday"
+    directories:
+      source: "D:/GitHub/FastPlanner/files/nlopt-master/build/CMakeFiles/CMakeScratch/TryCompile-jztkfi"
+      binary: "D:/GitHub/FastPlanner/files/nlopt-master/build/CMakeFiles/CMakeScratch/TryCompile-jztkfi"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/GitHub/FastPlanner/files/nlopt-master/cmake"
+    buildResult:
+      variable: "HAVE_GETTIMEOFDAY"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/GitHub/FastPlanner/files/nlopt-master/build/CMakeFiles/CMakeScratch/TryCompile-jztkfi'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_7cd9a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.14.19+164abd434
+        鐢熸垚鍚姩鏃堕棿涓?2026/1/3 16:45:18銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淒:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jztkfi\\cmTC_7cd9a.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_7cd9a.dir\\Debug\\鈥濄€?
+          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+          姝ｅ湪鍒涘缓鐩綍鈥淒:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jztkfi\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_7cd9a.dir\\Debug\\cmTC_7cd9a.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_7cd9a.dir\\Debug\\cmTC_7cd9a.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_7cd9a.dir\\Debug\\cmTC_7cd9a.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "D:\\GitHub\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Debug"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /I"D:\\GitHub\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=gettimeofday /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7cd9a.dir\\Debug\\\\" /Fd"cmTC_7cd9a.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jztkfi\\CheckFunctionExists.c"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.44.35215 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          cl /c /I"D:\\GitHub\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=gettimeofday /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7cd9a.dir\\Debug\\\\" /Fd"cmTC_7cd9a.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jztkfi\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jztkfi\\Debug\\cmTC_7cd9a.exe" /INCREMENTAL /ILK:"cmTC_7cd9a.dir\\Debug\\cmTC_7cd9a.ilk" /NOLOGO /LIBPATH:"D:\\GitHub\\vcpkg\\installed\\x64-windows\\debug\\lib" /LIBPATH:"D:\\GitHub\\vcpkg\\installed\\x64-windows\\debug\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "D:\\GitHub\\vcpkg\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/GitHub/FastPlanner/files/nlopt-master/build/CMakeFiles/CMakeScratch/TryCompile-jztkfi/Debug/cmTC_7cd9a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/GitHub/FastPlanner/files/nlopt-master/build/CMakeFiles/CMakeScratch/TryCompile-jztkfi/Debug/cmTC_7cd9a.lib" /MACHINE:X64  /machine:x64 cmTC_7cd9a.dir\\Debug\\CheckFunctionExists.obj
+        CheckFunctionExists.obj : error LNK2019: 鏃犳硶瑙ｆ瀽鐨勫閮ㄧ鍙?gettimeofday锛屽嚱鏁?main 涓紩鐢ㄤ簡璇ョ鍙?[D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jztkfi\\cmTC_7cd9a.vcxproj]
+        D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jztkfi\\Debug\\cmTC_7cd9a.exe : fatal error LNK1120: 1 涓棤娉曡В鏋愮殑澶栭儴鍛戒护 [D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jztkfi\\cmTC_7cd9a.vcxproj]
+        宸插畬鎴愮敓鎴愰」鐩€淒:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jztkfi\\cmTC_7cd9a.vcxproj鈥?榛樿鐩爣)鐨勬搷浣?- 澶辫触銆?
+        
+        鐢熸垚澶辫触銆?
+        
+        鈥淒:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jztkfi\\cmTC_7cd9a.vcxproj鈥?榛樿鐩爣) (1) ->
+        (Link 鐩爣) -> 
+          CheckFunctionExists.obj : error LNK2019: 鏃犳硶瑙ｆ瀽鐨勫閮ㄧ鍙?gettimeofday锛屽嚱鏁?main 涓紩鐢ㄤ簡璇ョ鍙?[D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jztkfi\\cmTC_7cd9a.vcxproj]
+          D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jztkfi\\Debug\\cmTC_7cd9a.exe : fatal error LNK1120: 1 涓棤娉曡В鏋愮殑澶栭儴鍛戒护 [D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jztkfi\\cmTC_7cd9a.vcxproj]
+        
+            0 涓鍛?
+            2 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:00.34
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckFunctionExists.cmake:93 (try_compile)"
+      - "CMakeLists.txt:98 (check_function_exists)"
+    checks:
+      - "Looking for qsort_r"
+    directories:
+      source: "D:/GitHub/FastPlanner/files/nlopt-master/build/CMakeFiles/CMakeScratch/TryCompile-j14mcy"
+      binary: "D:/GitHub/FastPlanner/files/nlopt-master/build/CMakeFiles/CMakeScratch/TryCompile-j14mcy"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/GitHub/FastPlanner/files/nlopt-master/cmake"
+    buildResult:
+      variable: "HAVE_QSORT_R"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/GitHub/FastPlanner/files/nlopt-master/build/CMakeFiles/CMakeScratch/TryCompile-j14mcy'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_a27de.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.14.19+164abd434
+        鐢熸垚鍚姩鏃堕棿涓?2026/1/3 16:45:19銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淒:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j14mcy\\cmTC_a27de.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_a27de.dir\\Debug\\鈥濄€?
+          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+          姝ｅ湪鍒涘缓鐩綍鈥淒:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j14mcy\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_a27de.dir\\Debug\\cmTC_a27de.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_a27de.dir\\Debug\\cmTC_a27de.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_a27de.dir\\Debug\\cmTC_a27de.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "D:\\GitHub\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Debug"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /I"D:\\GitHub\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=qsort_r /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a27de.dir\\Debug\\\\" /Fd"cmTC_a27de.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j14mcy\\CheckFunctionExists.c"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.44.35215 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          cl /c /I"D:\\GitHub\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=qsort_r /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a27de.dir\\Debug\\\\" /Fd"cmTC_a27de.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j14mcy\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j14mcy\\Debug\\cmTC_a27de.exe" /INCREMENTAL /ILK:"cmTC_a27de.dir\\Debug\\cmTC_a27de.ilk" /NOLOGO /LIBPATH:"D:\\GitHub\\vcpkg\\installed\\x64-windows\\debug\\lib" /LIBPATH:"D:\\GitHub\\vcpkg\\installed\\x64-windows\\debug\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "D:\\GitHub\\vcpkg\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/GitHub/FastPlanner/files/nlopt-master/build/CMakeFiles/CMakeScratch/TryCompile-j14mcy/Debug/cmTC_a27de.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/GitHub/FastPlanner/files/nlopt-master/build/CMakeFiles/CMakeScratch/TryCompile-j14mcy/Debug/cmTC_a27de.lib" /MACHINE:X64  /machine:x64 cmTC_a27de.dir\\Debug\\CheckFunctionExists.obj
+        CheckFunctionExists.obj : error LNK2019: 鏃犳硶瑙ｆ瀽鐨勫閮ㄧ鍙?qsort_r锛屽嚱鏁?main 涓紩鐢ㄤ簡璇ョ鍙?[D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j14mcy\\cmTC_a27de.vcxproj]
+        D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j14mcy\\Debug\\cmTC_a27de.exe : fatal error LNK1120: 1 涓棤娉曡В鏋愮殑澶栭儴鍛戒护 [D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j14mcy\\cmTC_a27de.vcxproj]
+        宸插畬鎴愮敓鎴愰」鐩€淒:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j14mcy\\cmTC_a27de.vcxproj鈥?榛樿鐩爣)鐨勬搷浣?- 澶辫触銆?
+        
+        鐢熸垚澶辫触銆?
+        
+        鈥淒:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j14mcy\\cmTC_a27de.vcxproj鈥?榛樿鐩爣) (1) ->
+        (Link 鐩爣) -> 
+          CheckFunctionExists.obj : error LNK2019: 鏃犳硶瑙ｆ瀽鐨勫閮ㄧ鍙?qsort_r锛屽嚱鏁?main 涓紩鐢ㄤ簡璇ョ鍙?[D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j14mcy\\cmTC_a27de.vcxproj]
+          D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j14mcy\\Debug\\cmTC_a27de.exe : fatal error LNK1120: 1 涓棤娉曡В鏋愮殑澶栭儴鍛戒护 [D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j14mcy\\cmTC_a27de.vcxproj]
+        
+            0 涓鍛?
+            2 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:00.35
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckFunctionExists.cmake:93 (try_compile)"
+      - "CMakeLists.txt:99 (check_function_exists)"
+    checks:
+      - "Looking for time"
+    directories:
+      source: "D:/GitHub/FastPlanner/files/nlopt-master/build/CMakeFiles/CMakeScratch/TryCompile-b0l8f4"
+      binary: "D:/GitHub/FastPlanner/files/nlopt-master/build/CMakeFiles/CMakeScratch/TryCompile-b0l8f4"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/GitHub/FastPlanner/files/nlopt-master/cmake"
+    buildResult:
+      variable: "HAVE_TIME"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/GitHub/FastPlanner/files/nlopt-master/build/CMakeFiles/CMakeScratch/TryCompile-b0l8f4'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_e667c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.14.19+164abd434
+        鐢熸垚鍚姩鏃堕棿涓?2026/1/3 16:45:19銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淒:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-b0l8f4\\cmTC_e667c.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_e667c.dir\\Debug\\鈥濄€?
+          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+          姝ｅ湪鍒涘缓鐩綍鈥淒:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-b0l8f4\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_e667c.dir\\Debug\\cmTC_e667c.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_e667c.dir\\Debug\\cmTC_e667c.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_e667c.dir\\Debug\\cmTC_e667c.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "D:\\GitHub\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Debug"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /I"D:\\GitHub\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=time /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e667c.dir\\Debug\\\\" /Fd"cmTC_e667c.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-b0l8f4\\CheckFunctionExists.c"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.44.35215 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          cl /c /I"D:\\GitHub\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=time /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e667c.dir\\Debug\\\\" /Fd"cmTC_e667c.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-b0l8f4\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-b0l8f4\\Debug\\cmTC_e667c.exe" /INCREMENTAL /ILK:"cmTC_e667c.dir\\Debug\\cmTC_e667c.ilk" /NOLOGO /LIBPATH:"D:\\GitHub\\vcpkg\\installed\\x64-windows\\debug\\lib" /LIBPATH:"D:\\GitHub\\vcpkg\\installed\\x64-windows\\debug\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "D:\\GitHub\\vcpkg\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/GitHub/FastPlanner/files/nlopt-master/build/CMakeFiles/CMakeScratch/TryCompile-b0l8f4/Debug/cmTC_e667c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/GitHub/FastPlanner/files/nlopt-master/build/CMakeFiles/CMakeScratch/TryCompile-b0l8f4/Debug/cmTC_e667c.lib" /MACHINE:X64  /machine:x64 cmTC_e667c.dir\\Debug\\CheckFunctionExists.obj
+          cmTC_e667c.vcxproj -> D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-b0l8f4\\Debug\\cmTC_e667c.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "D:\\GitHub\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-b0l8f4\\Debug\\cmTC_e667c.exe" "D:\\GitHub\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_e667c.dir\\Debug\\cmTC_e667c.tlog\\cmTC_e667c.write.1u.tlog" "cmTC_e667c.dir\\Debug\\vcpkg.applocal.log"
+          'pwsh.exe' 涓嶆槸鍐呴儴鎴栧閮ㄥ懡浠わ紝涔熶笉鏄彲杩愯鐨勭▼搴?
+          鎴栨壒澶勭悊鏂囦欢銆?
+          鍛戒护鈥減wsh.exe -ExecutionPolicy Bypass -noprofile -File "D:\\GitHub\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-b0l8f4\\Debug\\cmTC_e667c.exe" "D:\\GitHub\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_e667c.dir\\Debug\\cmTC_e667c.tlog\\cmTC_e667c.write.1u.tlog" "cmTC_e667c.dir\\Debug\\vcpkg.applocal.log"鈥濆凡閫€鍑猴紝浠ｇ爜涓?9009銆?
+          "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "D:\\GitHub\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-b0l8f4\\Debug\\cmTC_e667c.exe" "D:\\GitHub\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_e667c.dir\\Debug\\cmTC_e667c.tlog\\cmTC_e667c.write.1u.tlog" "cmTC_e667c.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_e667c.dir\\Debug\\cmTC_e667c.tlog\\unsuccessfulbuild鈥濄€?
+          姝ｅ湪瀵光€渃mTC_e667c.dir\\Debug\\cmTC_e667c.tlog\\cmTC_e667c.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+        宸插畬鎴愮敓鎴愰」鐩€淒:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-b0l8f4\\cmTC_e667c.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+        
+        宸叉垚鍔熺敓鎴愩€?
+            0 涓鍛?
+            0 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:00.71
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckFunctionExists.cmake:93 (try_compile)"
+      - "CMakeLists.txt:100 (check_function_exists)"
+    checks:
+      - "Looking for copysign"
+    directories:
+      source: "D:/GitHub/FastPlanner/files/nlopt-master/build/CMakeFiles/CMakeScratch/TryCompile-efzf6n"
+      binary: "D:/GitHub/FastPlanner/files/nlopt-master/build/CMakeFiles/CMakeScratch/TryCompile-efzf6n"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/GitHub/FastPlanner/files/nlopt-master/cmake"
+    buildResult:
+      variable: "HAVE_COPYSIGN"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/GitHub/FastPlanner/files/nlopt-master/build/CMakeFiles/CMakeScratch/TryCompile-efzf6n'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_d5a06.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.14.19+164abd434
+        鐢熸垚鍚姩鏃堕棿涓?2026/1/3 16:45:20銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淒:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-efzf6n\\cmTC_d5a06.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_d5a06.dir\\Debug\\鈥濄€?
+          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+          姝ｅ湪鍒涘缓鐩綍鈥淒:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-efzf6n\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_d5a06.dir\\Debug\\cmTC_d5a06.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_d5a06.dir\\Debug\\cmTC_d5a06.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_d5a06.dir\\Debug\\cmTC_d5a06.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "D:\\GitHub\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Debug"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /I"D:\\GitHub\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=copysign /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d5a06.dir\\Debug\\\\" /Fd"cmTC_d5a06.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-efzf6n\\CheckFunctionExists.c"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.44.35215 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          cl /c /I"D:\\GitHub\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=copysign /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d5a06.dir\\Debug\\\\" /Fd"cmTC_d5a06.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-efzf6n\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-efzf6n\\Debug\\cmTC_d5a06.exe" /INCREMENTAL /ILK:"cmTC_d5a06.dir\\Debug\\cmTC_d5a06.ilk" /NOLOGO /LIBPATH:"D:\\GitHub\\vcpkg\\installed\\x64-windows\\debug\\lib" /LIBPATH:"D:\\GitHub\\vcpkg\\installed\\x64-windows\\debug\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "D:\\GitHub\\vcpkg\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/GitHub/FastPlanner/files/nlopt-master/build/CMakeFiles/CMakeScratch/TryCompile-efzf6n/Debug/cmTC_d5a06.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/GitHub/FastPlanner/files/nlopt-master/build/CMakeFiles/CMakeScratch/TryCompile-efzf6n/Debug/cmTC_d5a06.lib" /MACHINE:X64  /machine:x64 cmTC_d5a06.dir\\Debug\\CheckFunctionExists.obj
+          cmTC_d5a06.vcxproj -> D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-efzf6n\\Debug\\cmTC_d5a06.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "D:\\GitHub\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-efzf6n\\Debug\\cmTC_d5a06.exe" "D:\\GitHub\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_d5a06.dir\\Debug\\cmTC_d5a06.tlog\\cmTC_d5a06.write.1u.tlog" "cmTC_d5a06.dir\\Debug\\vcpkg.applocal.log"
+          'pwsh.exe' 涓嶆槸鍐呴儴鎴栧閮ㄥ懡浠わ紝涔熶笉鏄彲杩愯鐨勭▼搴?
+          鎴栨壒澶勭悊鏂囦欢銆?
+          鍛戒护鈥減wsh.exe -ExecutionPolicy Bypass -noprofile -File "D:\\GitHub\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-efzf6n\\Debug\\cmTC_d5a06.exe" "D:\\GitHub\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_d5a06.dir\\Debug\\cmTC_d5a06.tlog\\cmTC_d5a06.write.1u.tlog" "cmTC_d5a06.dir\\Debug\\vcpkg.applocal.log"鈥濆凡閫€鍑猴紝浠ｇ爜涓?9009銆?
+          "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "D:\\GitHub\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-efzf6n\\Debug\\cmTC_d5a06.exe" "D:\\GitHub\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_d5a06.dir\\Debug\\cmTC_d5a06.tlog\\cmTC_d5a06.write.1u.tlog" "cmTC_d5a06.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_d5a06.dir\\Debug\\cmTC_d5a06.tlog\\unsuccessfulbuild鈥濄€?
+          姝ｅ湪瀵光€渃mTC_d5a06.dir\\Debug\\cmTC_d5a06.tlog\\cmTC_d5a06.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+        宸插畬鎴愮敓鎴愰」鐩€淒:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-efzf6n\\cmTC_d5a06.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+        
+        宸叉垚鍔熺敓鎴愩€?
+            0 涓鍛?
+            0 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:00.72
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckFunctionExists.cmake:93 (try_compile)"
+      - "CMakeLists.txt:101 (check_function_exists)"
+    checks:
+      - "Looking for getopt"
+    directories:
+      source: "D:/GitHub/FastPlanner/files/nlopt-master/build/CMakeFiles/CMakeScratch/TryCompile-8pbhjx"
+      binary: "D:/GitHub/FastPlanner/files/nlopt-master/build/CMakeFiles/CMakeScratch/TryCompile-8pbhjx"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/GitHub/FastPlanner/files/nlopt-master/cmake"
+    buildResult:
+      variable: "HAVE_GETOPT"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/GitHub/FastPlanner/files/nlopt-master/build/CMakeFiles/CMakeScratch/TryCompile-8pbhjx'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_a5623.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.14.19+164abd434
+        鐢熸垚鍚姩鏃堕棿涓?2026/1/3 16:45:21銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淒:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8pbhjx\\cmTC_a5623.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_a5623.dir\\Debug\\鈥濄€?
+          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+          姝ｅ湪鍒涘缓鐩綍鈥淒:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8pbhjx\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_a5623.dir\\Debug\\cmTC_a5623.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_a5623.dir\\Debug\\cmTC_a5623.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_a5623.dir\\Debug\\cmTC_a5623.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "D:\\GitHub\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Debug"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /I"D:\\GitHub\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=getopt /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a5623.dir\\Debug\\\\" /Fd"cmTC_a5623.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8pbhjx\\CheckFunctionExists.c"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.44.35215 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          cl /c /I"D:\\GitHub\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=getopt /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a5623.dir\\Debug\\\\" /Fd"cmTC_a5623.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8pbhjx\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8pbhjx\\Debug\\cmTC_a5623.exe" /INCREMENTAL /ILK:"cmTC_a5623.dir\\Debug\\cmTC_a5623.ilk" /NOLOGO /LIBPATH:"D:\\GitHub\\vcpkg\\installed\\x64-windows\\debug\\lib" /LIBPATH:"D:\\GitHub\\vcpkg\\installed\\x64-windows\\debug\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "D:\\GitHub\\vcpkg\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/GitHub/FastPlanner/files/nlopt-master/build/CMakeFiles/CMakeScratch/TryCompile-8pbhjx/Debug/cmTC_a5623.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/GitHub/FastPlanner/files/nlopt-master/build/CMakeFiles/CMakeScratch/TryCompile-8pbhjx/Debug/cmTC_a5623.lib" /MACHINE:X64  /machine:x64 cmTC_a5623.dir\\Debug\\CheckFunctionExists.obj
+        CheckFunctionExists.obj : error LNK2019: 鏃犳硶瑙ｆ瀽鐨勫閮ㄧ鍙?getopt锛屽嚱鏁?main 涓紩鐢ㄤ簡璇ョ鍙?[D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8pbhjx\\cmTC_a5623.vcxproj]
+        D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8pbhjx\\Debug\\cmTC_a5623.exe : fatal error LNK1120: 1 涓棤娉曡В鏋愮殑澶栭儴鍛戒护 [D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8pbhjx\\cmTC_a5623.vcxproj]
+        宸插畬鎴愮敓鎴愰」鐩€淒:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8pbhjx\\cmTC_a5623.vcxproj鈥?榛樿鐩爣)鐨勬搷浣?- 澶辫触銆?
+        
+        鐢熸垚澶辫触銆?
+        
+        鈥淒:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8pbhjx\\cmTC_a5623.vcxproj鈥?榛樿鐩爣) (1) ->
+        (Link 鐩爣) -> 
+          CheckFunctionExists.obj : error LNK2019: 鏃犳硶瑙ｆ瀽鐨勫閮ㄧ鍙?getopt锛屽嚱鏁?main 涓紩鐢ㄤ簡璇ョ鍙?[D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8pbhjx\\cmTC_a5623.vcxproj]
+          D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8pbhjx\\Debug\\cmTC_a5623.exe : fatal error LNK1120: 1 涓棤娉曡В鏋愮殑澶栭儴鍛戒护 [D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8pbhjx\\cmTC_a5623.vcxproj]
+        
+            0 涓鍛?
+            2 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:00.34
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckTypeSize.cmake:262 (check_include_file)"
+      - "CMakeLists.txt:102 (check_type_size)"
+    checks:
+      - "Looking for sys/types.h"
+    directories:
+      source: "D:/GitHub/FastPlanner/files/nlopt-master/build/CMakeFiles/CMakeScratch/TryCompile-qusdbr"
+      binary: "D:/GitHub/FastPlanner/files/nlopt-master/build/CMakeFiles/CMakeScratch/TryCompile-qusdbr"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/GitHub/FastPlanner/files/nlopt-master/cmake"
+    buildResult:
+      variable: "HAVE_SYS_TYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/GitHub/FastPlanner/files/nlopt-master/build/CMakeFiles/CMakeScratch/TryCompile-qusdbr'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_b0510.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.14.19+164abd434
+        鐢熸垚鍚姩鏃堕棿涓?2026/1/3 16:45:22銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淒:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qusdbr\\cmTC_b0510.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_b0510.dir\\Debug\\鈥濄€?
+          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+          姝ｅ湪鍒涘缓鐩綍鈥淒:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qusdbr\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_b0510.dir\\Debug\\cmTC_b0510.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_b0510.dir\\Debug\\cmTC_b0510.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_b0510.dir\\Debug\\cmTC_b0510.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "D:\\GitHub\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Debug"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /I"D:\\GitHub\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b0510.dir\\Debug\\\\" /Fd"cmTC_b0510.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qusdbr\\CheckIncludeFile.c"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.44.35215 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          cl /c /I"D:\\GitHub\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b0510.dir\\Debug\\\\" /Fd"cmTC_b0510.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qusdbr\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qusdbr\\Debug\\cmTC_b0510.exe" /INCREMENTAL /ILK:"cmTC_b0510.dir\\Debug\\cmTC_b0510.ilk" /NOLOGO /LIBPATH:"D:\\GitHub\\vcpkg\\installed\\x64-windows\\debug\\lib" /LIBPATH:"D:\\GitHub\\vcpkg\\installed\\x64-windows\\debug\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "D:\\GitHub\\vcpkg\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/GitHub/FastPlanner/files/nlopt-master/build/CMakeFiles/CMakeScratch/TryCompile-qusdbr/Debug/cmTC_b0510.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/GitHub/FastPlanner/files/nlopt-master/build/CMakeFiles/CMakeScratch/TryCompile-qusdbr/Debug/cmTC_b0510.lib" /MACHINE:X64  /machine:x64 cmTC_b0510.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_b0510.vcxproj -> D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qusdbr\\Debug\\cmTC_b0510.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "D:\\GitHub\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qusdbr\\Debug\\cmTC_b0510.exe" "D:\\GitHub\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_b0510.dir\\Debug\\cmTC_b0510.tlog\\cmTC_b0510.write.1u.tlog" "cmTC_b0510.dir\\Debug\\vcpkg.applocal.log"
+          'pwsh.exe' 涓嶆槸鍐呴儴鎴栧閮ㄥ懡浠わ紝涔熶笉鏄彲杩愯鐨勭▼搴?
+          鎴栨壒澶勭悊鏂囦欢銆?
+          鍛戒护鈥減wsh.exe -ExecutionPolicy Bypass -noprofile -File "D:\\GitHub\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qusdbr\\Debug\\cmTC_b0510.exe" "D:\\GitHub\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_b0510.dir\\Debug\\cmTC_b0510.tlog\\cmTC_b0510.write.1u.tlog" "cmTC_b0510.dir\\Debug\\vcpkg.applocal.log"鈥濆凡閫€鍑猴紝浠ｇ爜涓?9009銆?
+          "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "D:\\GitHub\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qusdbr\\Debug\\cmTC_b0510.exe" "D:\\GitHub\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_b0510.dir\\Debug\\cmTC_b0510.tlog\\cmTC_b0510.write.1u.tlog" "cmTC_b0510.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_b0510.dir\\Debug\\cmTC_b0510.tlog\\unsuccessfulbuild鈥濄€?
+          姝ｅ湪瀵光€渃mTC_b0510.dir\\Debug\\cmTC_b0510.tlog\\cmTC_b0510.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+        宸插畬鎴愮敓鎴愰」鐩€淒:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qusdbr\\cmTC_b0510.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+        
+        宸叉垚鍔熺敓鎴愩€?
+            0 涓鍛?
+            0 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:00.72
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckTypeSize.cmake:264 (check_include_file)"
+      - "CMakeLists.txt:102 (check_type_size)"
+    checks:
+      - "Looking for stddef.h"
+    directories:
+      source: "D:/GitHub/FastPlanner/files/nlopt-master/build/CMakeFiles/CMakeScratch/TryCompile-6xo1p0"
+      binary: "D:/GitHub/FastPlanner/files/nlopt-master/build/CMakeFiles/CMakeScratch/TryCompile-6xo1p0"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/GitHub/FastPlanner/files/nlopt-master/cmake"
+    buildResult:
+      variable: "HAVE_STDDEF_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/GitHub/FastPlanner/files/nlopt-master/build/CMakeFiles/CMakeScratch/TryCompile-6xo1p0'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_97069.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.14.19+164abd434
+        鐢熸垚鍚姩鏃堕棿涓?2026/1/3 16:45:23銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淒:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6xo1p0\\cmTC_97069.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_97069.dir\\Debug\\鈥濄€?
+          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+          姝ｅ湪鍒涘缓鐩綍鈥淒:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6xo1p0\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_97069.dir\\Debug\\cmTC_97069.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_97069.dir\\Debug\\cmTC_97069.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_97069.dir\\Debug\\cmTC_97069.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "D:\\GitHub\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Debug"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /I"D:\\GitHub\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_97069.dir\\Debug\\\\" /Fd"cmTC_97069.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6xo1p0\\CheckIncludeFile.c"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.44.35215 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          cl /c /I"D:\\GitHub\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_97069.dir\\Debug\\\\" /Fd"cmTC_97069.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6xo1p0\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6xo1p0\\Debug\\cmTC_97069.exe" /INCREMENTAL /ILK:"cmTC_97069.dir\\Debug\\cmTC_97069.ilk" /NOLOGO /LIBPATH:"D:\\GitHub\\vcpkg\\installed\\x64-windows\\debug\\lib" /LIBPATH:"D:\\GitHub\\vcpkg\\installed\\x64-windows\\debug\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "D:\\GitHub\\vcpkg\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/GitHub/FastPlanner/files/nlopt-master/build/CMakeFiles/CMakeScratch/TryCompile-6xo1p0/Debug/cmTC_97069.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/GitHub/FastPlanner/files/nlopt-master/build/CMakeFiles/CMakeScratch/TryCompile-6xo1p0/Debug/cmTC_97069.lib" /MACHINE:X64  /machine:x64 cmTC_97069.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_97069.vcxproj -> D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6xo1p0\\Debug\\cmTC_97069.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "D:\\GitHub\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6xo1p0\\Debug\\cmTC_97069.exe" "D:\\GitHub\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_97069.dir\\Debug\\cmTC_97069.tlog\\cmTC_97069.write.1u.tlog" "cmTC_97069.dir\\Debug\\vcpkg.applocal.log"
+          'pwsh.exe' 涓嶆槸鍐呴儴鎴栧閮ㄥ懡浠わ紝涔熶笉鏄彲杩愯鐨勭▼搴?
+          鎴栨壒澶勭悊鏂囦欢銆?
+          鍛戒护鈥減wsh.exe -ExecutionPolicy Bypass -noprofile -File "D:\\GitHub\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6xo1p0\\Debug\\cmTC_97069.exe" "D:\\GitHub\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_97069.dir\\Debug\\cmTC_97069.tlog\\cmTC_97069.write.1u.tlog" "cmTC_97069.dir\\Debug\\vcpkg.applocal.log"鈥濆凡閫€鍑猴紝浠ｇ爜涓?9009銆?
+          "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "D:\\GitHub\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6xo1p0\\Debug\\cmTC_97069.exe" "D:\\GitHub\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_97069.dir\\Debug\\cmTC_97069.tlog\\cmTC_97069.write.1u.tlog" "cmTC_97069.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_97069.dir\\Debug\\cmTC_97069.tlog\\unsuccessfulbuild鈥濄€?
+          姝ｅ湪瀵光€渃mTC_97069.dir\\Debug\\cmTC_97069.tlog\\cmTC_97069.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+        宸插畬鎴愮敓鎴愰」鐩€淒:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6xo1p0\\cmTC_97069.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+        
+        宸叉垚鍔熺敓鎴愩€?
+            0 涓鍛?
+            0 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:00.71
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckTypeSize.cmake:156 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckTypeSize.cmake:283 (__check_type_size_impl)"
+      - "CMakeLists.txt:102 (check_type_size)"
+    checks:
+      - "Check size of uint32_t"
+    directories:
+      source: "D:/GitHub/FastPlanner/files/nlopt-master/build/CMakeFiles/CMakeScratch/TryCompile-lhabiq"
+      binary: "D:/GitHub/FastPlanner/files/nlopt-master/build/CMakeFiles/CMakeScratch/TryCompile-lhabiq"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/GitHub/FastPlanner/files/nlopt-master/cmake"
+    buildResult:
+      variable: "HAVE_SIZEOF_UINT32_T"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/GitHub/FastPlanner/files/nlopt-master/build/CMakeFiles/CMakeScratch/TryCompile-lhabiq'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_30ccf.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.14.19+164abd434
+        鐢熸垚鍚姩鏃堕棿涓?2026/1/3 16:45:24銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淒:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lhabiq\\cmTC_30ccf.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_30ccf.dir\\Debug\\鈥濄€?
+          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+          姝ｅ湪鍒涘缓鐩綍鈥淒:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lhabiq\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_30ccf.dir\\Debug\\cmTC_30ccf.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_30ccf.dir\\Debug\\cmTC_30ccf.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_30ccf.dir\\Debug\\cmTC_30ccf.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "D:\\GitHub\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Debug"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /I"D:\\GitHub\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_30ccf.dir\\Debug\\\\" /Fd"cmTC_30ccf.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lhabiq\\SIZEOF_UINT32_T.c"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.44.35215 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          cl /c /I"D:\\GitHub\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_30ccf.dir\\Debug\\\\" /Fd"cmTC_30ccf.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lhabiq\\SIZEOF_UINT32_T.c"
+          SIZEOF_UINT32_T.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lhabiq\\Debug\\cmTC_30ccf.exe" /INCREMENTAL /ILK:"cmTC_30ccf.dir\\Debug\\cmTC_30ccf.ilk" /NOLOGO /LIBPATH:"D:\\GitHub\\vcpkg\\installed\\x64-windows\\debug\\lib" /LIBPATH:"D:\\GitHub\\vcpkg\\installed\\x64-windows\\debug\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "D:\\GitHub\\vcpkg\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/GitHub/FastPlanner/files/nlopt-master/build/CMakeFiles/CMakeScratch/TryCompile-lhabiq/Debug/cmTC_30ccf.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/GitHub/FastPlanner/files/nlopt-master/build/CMakeFiles/CMakeScratch/TryCompile-lhabiq/Debug/cmTC_30ccf.lib" /MACHINE:X64  /machine:x64 cmTC_30ccf.dir\\Debug\\SIZEOF_UINT32_T.obj
+          cmTC_30ccf.vcxproj -> D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lhabiq\\Debug\\cmTC_30ccf.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "D:\\GitHub\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lhabiq\\Debug\\cmTC_30ccf.exe" "D:\\GitHub\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_30ccf.dir\\Debug\\cmTC_30ccf.tlog\\cmTC_30ccf.write.1u.tlog" "cmTC_30ccf.dir\\Debug\\vcpkg.applocal.log"
+          'pwsh.exe' 涓嶆槸鍐呴儴鎴栧閮ㄥ懡浠わ紝涔熶笉鏄彲杩愯鐨勭▼搴?
+          鎴栨壒澶勭悊鏂囦欢銆?
+          鍛戒护鈥減wsh.exe -ExecutionPolicy Bypass -noprofile -File "D:\\GitHub\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lhabiq\\Debug\\cmTC_30ccf.exe" "D:\\GitHub\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_30ccf.dir\\Debug\\cmTC_30ccf.tlog\\cmTC_30ccf.write.1u.tlog" "cmTC_30ccf.dir\\Debug\\vcpkg.applocal.log"鈥濆凡閫€鍑猴紝浠ｇ爜涓?9009銆?
+          "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "D:\\GitHub\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lhabiq\\Debug\\cmTC_30ccf.exe" "D:\\GitHub\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_30ccf.dir\\Debug\\cmTC_30ccf.tlog\\cmTC_30ccf.write.1u.tlog" "cmTC_30ccf.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_30ccf.dir\\Debug\\cmTC_30ccf.tlog\\unsuccessfulbuild鈥濄€?
+          姝ｅ湪瀵光€渃mTC_30ccf.dir\\Debug\\cmTC_30ccf.tlog\\cmTC_30ccf.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+        宸插畬鎴愮敓鎴愰」鐩€淒:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lhabiq\\cmTC_30ccf.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+        
+        宸叉垚鍔熺敓鎴愩€?
+            0 涓鍛?
+            0 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:01.27
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckTypeSize.cmake:156 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckTypeSize.cmake:283 (__check_type_size_impl)"
+      - "CMakeLists.txt:104 (check_type_size)"
+    checks:
+      - "Check size of unsigned int"
+    directories:
+      source: "D:/GitHub/FastPlanner/files/nlopt-master/build/CMakeFiles/CMakeScratch/TryCompile-cxe023"
+      binary: "D:/GitHub/FastPlanner/files/nlopt-master/build/CMakeFiles/CMakeScratch/TryCompile-cxe023"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/GitHub/FastPlanner/files/nlopt-master/cmake"
+    buildResult:
+      variable: "HAVE_SIZEOF_UNSIGNED_INT"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/GitHub/FastPlanner/files/nlopt-master/build/CMakeFiles/CMakeScratch/TryCompile-cxe023'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_cf4e0.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.14.19+164abd434
+        鐢熸垚鍚姩鏃堕棿涓?2026/1/3 16:45:25銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淒:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cxe023\\cmTC_cf4e0.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_cf4e0.dir\\Debug\\鈥濄€?
+          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+          姝ｅ湪鍒涘缓鐩綍鈥淒:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cxe023\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_cf4e0.dir\\Debug\\cmTC_cf4e0.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_cf4e0.dir\\Debug\\cmTC_cf4e0.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_cf4e0.dir\\Debug\\cmTC_cf4e0.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "D:\\GitHub\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Debug"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /I"D:\\GitHub\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_cf4e0.dir\\Debug\\\\" /Fd"cmTC_cf4e0.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cxe023\\SIZEOF_UNSIGNED_INT.c"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.44.35215 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          cl /c /I"D:\\GitHub\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_cf4e0.dir\\Debug\\\\" /Fd"cmTC_cf4e0.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cxe023\\SIZEOF_UNSIGNED_INT.c"
+          SIZEOF_UNSIGNED_INT.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cxe023\\Debug\\cmTC_cf4e0.exe" /INCREMENTAL /ILK:"cmTC_cf4e0.dir\\Debug\\cmTC_cf4e0.ilk" /NOLOGO /LIBPATH:"D:\\GitHub\\vcpkg\\installed\\x64-windows\\debug\\lib" /LIBPATH:"D:\\GitHub\\vcpkg\\installed\\x64-windows\\debug\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "D:\\GitHub\\vcpkg\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/GitHub/FastPlanner/files/nlopt-master/build/CMakeFiles/CMakeScratch/TryCompile-cxe023/Debug/cmTC_cf4e0.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/GitHub/FastPlanner/files/nlopt-master/build/CMakeFiles/CMakeScratch/TryCompile-cxe023/Debug/cmTC_cf4e0.lib" /MACHINE:X64  /machine:x64 cmTC_cf4e0.dir\\Debug\\SIZEOF_UNSIGNED_INT.obj
+          cmTC_cf4e0.vcxproj -> D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cxe023\\Debug\\cmTC_cf4e0.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "D:\\GitHub\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cxe023\\Debug\\cmTC_cf4e0.exe" "D:\\GitHub\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_cf4e0.dir\\Debug\\cmTC_cf4e0.tlog\\cmTC_cf4e0.write.1u.tlog" "cmTC_cf4e0.dir\\Debug\\vcpkg.applocal.log"
+          'pwsh.exe' 涓嶆槸鍐呴儴鎴栧閮ㄥ懡浠わ紝涔熶笉鏄彲杩愯鐨勭▼搴?
+          鎴栨壒澶勭悊鏂囦欢銆?
+          鍛戒护鈥減wsh.exe -ExecutionPolicy Bypass -noprofile -File "D:\\GitHub\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cxe023\\Debug\\cmTC_cf4e0.exe" "D:\\GitHub\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_cf4e0.dir\\Debug\\cmTC_cf4e0.tlog\\cmTC_cf4e0.write.1u.tlog" "cmTC_cf4e0.dir\\Debug\\vcpkg.applocal.log"鈥濆凡閫€鍑猴紝浠ｇ爜涓?9009銆?
+          "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "D:\\GitHub\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cxe023\\Debug\\cmTC_cf4e0.exe" "D:\\GitHub\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_cf4e0.dir\\Debug\\cmTC_cf4e0.tlog\\cmTC_cf4e0.write.1u.tlog" "cmTC_cf4e0.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_cf4e0.dir\\Debug\\cmTC_cf4e0.tlog\\unsuccessfulbuild鈥濄€?
+          姝ｅ湪瀵光€渃mTC_cf4e0.dir\\Debug\\cmTC_cf4e0.tlog\\cmTC_cf4e0.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+        宸插畬鎴愮敓鎴愰」鐩€淒:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cxe023\\cmTC_cf4e0.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+        
+        宸叉垚鍔熺敓鎴愩€?
+            0 涓鍛?
+            0 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:01.28
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckTypeSize.cmake:156 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckTypeSize.cmake:283 (__check_type_size_impl)"
+      - "CMakeLists.txt:105 (check_type_size)"
+    checks:
+      - "Check size of unsigned long"
+    directories:
+      source: "D:/GitHub/FastPlanner/files/nlopt-master/build/CMakeFiles/CMakeScratch/TryCompile-frudmd"
+      binary: "D:/GitHub/FastPlanner/files/nlopt-master/build/CMakeFiles/CMakeScratch/TryCompile-frudmd"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/GitHub/FastPlanner/files/nlopt-master/cmake"
+    buildResult:
+      variable: "HAVE_SIZEOF_UNSIGNED_LONG"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/GitHub/FastPlanner/files/nlopt-master/build/CMakeFiles/CMakeScratch/TryCompile-frudmd'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_ea8ae.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.14.19+164abd434
+        鐢熸垚鍚姩鏃堕棿涓?2026/1/3 16:45:27銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淒:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-frudmd\\cmTC_ea8ae.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_ea8ae.dir\\Debug\\鈥濄€?
+          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+          姝ｅ湪鍒涘缓鐩綍鈥淒:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-frudmd\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_ea8ae.dir\\Debug\\cmTC_ea8ae.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_ea8ae.dir\\Debug\\cmTC_ea8ae.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_ea8ae.dir\\Debug\\cmTC_ea8ae.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "D:\\GitHub\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Debug"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /I"D:\\GitHub\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ea8ae.dir\\Debug\\\\" /Fd"cmTC_ea8ae.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-frudmd\\SIZEOF_UNSIGNED_LONG.c"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.44.35215 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          cl /c /I"D:\\GitHub\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ea8ae.dir\\Debug\\\\" /Fd"cmTC_ea8ae.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-frudmd\\SIZEOF_UNSIGNED_LONG.c"
+          SIZEOF_UNSIGNED_LONG.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-frudmd\\Debug\\cmTC_ea8ae.exe" /INCREMENTAL /ILK:"cmTC_ea8ae.dir\\Debug\\cmTC_ea8ae.ilk" /NOLOGO /LIBPATH:"D:\\GitHub\\vcpkg\\installed\\x64-windows\\debug\\lib" /LIBPATH:"D:\\GitHub\\vcpkg\\installed\\x64-windows\\debug\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "D:\\GitHub\\vcpkg\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/GitHub/FastPlanner/files/nlopt-master/build/CMakeFiles/CMakeScratch/TryCompile-frudmd/Debug/cmTC_ea8ae.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/GitHub/FastPlanner/files/nlopt-master/build/CMakeFiles/CMakeScratch/TryCompile-frudmd/Debug/cmTC_ea8ae.lib" /MACHINE:X64  /machine:x64 cmTC_ea8ae.dir\\Debug\\SIZEOF_UNSIGNED_LONG.obj
+          cmTC_ea8ae.vcxproj -> D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-frudmd\\Debug\\cmTC_ea8ae.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "D:\\GitHub\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-frudmd\\Debug\\cmTC_ea8ae.exe" "D:\\GitHub\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_ea8ae.dir\\Debug\\cmTC_ea8ae.tlog\\cmTC_ea8ae.write.1u.tlog" "cmTC_ea8ae.dir\\Debug\\vcpkg.applocal.log"
+          'pwsh.exe' 涓嶆槸鍐呴儴鎴栧閮ㄥ懡浠わ紝涔熶笉鏄彲杩愯鐨勭▼搴?
+          鎴栨壒澶勭悊鏂囦欢銆?
+          鍛戒护鈥減wsh.exe -ExecutionPolicy Bypass -noprofile -File "D:\\GitHub\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-frudmd\\Debug\\cmTC_ea8ae.exe" "D:\\GitHub\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_ea8ae.dir\\Debug\\cmTC_ea8ae.tlog\\cmTC_ea8ae.write.1u.tlog" "cmTC_ea8ae.dir\\Debug\\vcpkg.applocal.log"鈥濆凡閫€鍑猴紝浠ｇ爜涓?9009銆?
+          "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "D:\\GitHub\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-frudmd\\Debug\\cmTC_ea8ae.exe" "D:\\GitHub\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_ea8ae.dir\\Debug\\cmTC_ea8ae.tlog\\cmTC_ea8ae.write.1u.tlog" "cmTC_ea8ae.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_ea8ae.dir\\Debug\\cmTC_ea8ae.tlog\\unsuccessfulbuild鈥濄€?
+          姝ｅ湪瀵光€渃mTC_ea8ae.dir\\Debug\\cmTC_ea8ae.tlog\\cmTC_ea8ae.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+        宸插畬鎴愮敓鎴愰」鐩€淒:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-frudmd\\cmTC_ea8ae.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+        
+        宸叉垚鍔熺敓鎴愩€?
+            0 涓鍛?
+            0 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:01.33
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "CMakeLists.txt:118 (try_compile)"
+    directories:
+      source: "D:/GitHub/FastPlanner/files/nlopt-master/build/build_fpclassify/CMakeFiles/CMakeTmp"
+      binary: "D:/GitHub/FastPlanner/files/nlopt-master/build/build_fpclassify/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/GitHub/FastPlanner/files/nlopt-master/cmake"
+    buildResult:
+      variable: "HAVE_FPCLASSIFY"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/GitHub/FastPlanner/files/nlopt-master/build/build_fpclassify/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_e8f0b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.14.19+164abd434
+        鐢熸垚鍚姩鏃堕棿涓?2026/1/3 16:45:29銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淒:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\build_fpclassify\\CMakeFiles\\CMakeTmp\\cmTC_e8f0b.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_e8f0b.dir\\Debug\\鈥濄€?
+          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+          姝ｅ湪鍒涘缓鐩綍鈥淒:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\build_fpclassify\\CMakeFiles\\CMakeTmp\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_e8f0b.dir\\Debug\\cmTC_e8f0b.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_e8f0b.dir\\Debug\\cmTC_e8f0b.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_e8f0b.dir\\Debug\\cmTC_e8f0b.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "D:\\GitHub\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Debug"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /I"D:\\GitHub\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e8f0b.dir\\Debug\\\\" /Fd"cmTC_e8f0b.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\fpclassify.c"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.44.35215 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          cl /c /I"D:\\GitHub\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e8f0b.dir\\Debug\\\\" /Fd"cmTC_e8f0b.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\fpclassify.c"
+          fpclassify.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\build_fpclassify\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_e8f0b.exe" /INCREMENTAL /ILK:"cmTC_e8f0b.dir\\Debug\\cmTC_e8f0b.ilk" /NOLOGO /LIBPATH:"D:\\GitHub\\vcpkg\\installed\\x64-windows\\debug\\lib" /LIBPATH:"D:\\GitHub\\vcpkg\\installed\\x64-windows\\debug\\lib\\manual-link" m.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "D:\\GitHub\\vcpkg\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/GitHub/FastPlanner/files/nlopt-master/build/build_fpclassify/CMakeFiles/CMakeTmp/Debug/cmTC_e8f0b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/GitHub/FastPlanner/files/nlopt-master/build/build_fpclassify/CMakeFiles/CMakeTmp/Debug/cmTC_e8f0b.lib" /MACHINE:X64  /machine:x64 cmTC_e8f0b.dir\\Debug\\fpclassify.obj
+        LINK : fatal error LNK1104: 鏃犳硶鎵撳紑鏂囦欢鈥渕.lib鈥?[D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\build_fpclassify\\CMakeFiles\\CMakeTmp\\cmTC_e8f0b.vcxproj]
+        宸插畬鎴愮敓鎴愰」鐩€淒:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\build_fpclassify\\CMakeFiles\\CMakeTmp\\cmTC_e8f0b.vcxproj鈥?榛樿鐩爣)鐨勬搷浣?- 澶辫触銆?
+        
+        鐢熸垚澶辫触銆?
+        
+        鈥淒:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\build_fpclassify\\CMakeFiles\\CMakeTmp\\cmTC_e8f0b.vcxproj鈥?榛樿鐩爣) (1) ->
+        (Link 鐩爣) -> 
+          LINK : fatal error LNK1104: 鏃犳硶鎵撳紑鏂囦欢鈥渕.lib鈥?[D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\build_fpclassify\\CMakeFiles\\CMakeTmp\\cmTC_e8f0b.vcxproj]
+        
+            0 涓鍛?
+            1 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:00.58
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "CMakeLists.txt:129 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_THREAD_LOCAL_STORAGE"
+    directories:
+      source: "D:/GitHub/FastPlanner/files/nlopt-master/build/CMakeFiles/CMakeScratch/TryCompile-g5kp57"
+      binary: "D:/GitHub/FastPlanner/files/nlopt-master/build/CMakeFiles/CMakeScratch/TryCompile-g5kp57"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/GitHub/FastPlanner/files/nlopt-master/cmake"
+    buildResult:
+      variable: "HAVE_THREAD_LOCAL_STORAGE"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/GitHub/FastPlanner/files/nlopt-master/build/CMakeFiles/CMakeScratch/TryCompile-g5kp57'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_d1fb8.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.14.19+164abd434
+        鐢熸垚鍚姩鏃堕棿涓?2026/1/3 16:45:30銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淒:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g5kp57\\cmTC_d1fb8.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_d1fb8.dir\\Debug\\鈥濄€?
+          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+          姝ｅ湪鍒涘缓鐩綍鈥淒:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g5kp57\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_d1fb8.dir\\Debug\\cmTC_d1fb8.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_d1fb8.dir\\Debug\\cmTC_d1fb8.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_d1fb8.dir\\Debug\\cmTC_d1fb8.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "D:\\GitHub\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Debug"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /I"D:\\GitHub\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_THREAD_LOCAL_STORAGE /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d1fb8.dir\\Debug\\\\" /Fd"cmTC_d1fb8.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g5kp57\\src.c"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.44.35215 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          cl /c /I"D:\\GitHub\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_THREAD_LOCAL_STORAGE /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d1fb8.dir\\Debug\\\\" /Fd"cmTC_d1fb8.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g5kp57\\src.c"
+          src.c
+        D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g5kp57\\src.c(2,5): error C2054: 鍦ㄢ€淿_thread鈥濅箣鍚庡簲杈撳叆鈥?鈥?[D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g5kp57\\cmTC_d1fb8.vcxproj]
+        D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g5kp57\\src.c(2,18): error C2085: 鈥渢ls鈥? 涓嶅湪褰㈠弬琛ㄤ腑 [D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g5kp57\\cmTC_d1fb8.vcxproj]
+        D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g5kp57\\src.c(4,9): error C2085: 鈥渕ain鈥? 涓嶅湪褰㈠弬琛ㄤ腑 [D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g5kp57\\cmTC_d1fb8.vcxproj]
+        D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g5kp57\\src.c(4,20): error C2143: 璇硶閿欒: 缂哄皯鈥?鈥?鍦ㄢ€渰鈥濈殑鍓嶉潰) [D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g5kp57\\cmTC_d1fb8.vcxproj]
+        宸插畬鎴愮敓鎴愰」鐩€淒:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g5kp57\\cmTC_d1fb8.vcxproj鈥?榛樿鐩爣)鐨勬搷浣?- 澶辫触銆?
+        
+        鐢熸垚澶辫触銆?
+        
+        鈥淒:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g5kp57\\cmTC_d1fb8.vcxproj鈥?榛樿鐩爣) (1) ->
+        (ClCompile 鐩爣) -> 
+          D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g5kp57\\src.c(2,5): error C2054: 鍦ㄢ€淿_thread鈥濅箣鍚庡簲杈撳叆鈥?鈥?[D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g5kp57\\cmTC_d1fb8.vcxproj]
+          D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g5kp57\\src.c(2,18): error C2085: 鈥渢ls鈥? 涓嶅湪褰㈠弬琛ㄤ腑 [D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g5kp57\\cmTC_d1fb8.vcxproj]
+          D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g5kp57\\src.c(4,9): error C2085: 鈥渕ain鈥? 涓嶅湪褰㈠弬琛ㄤ腑 [D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g5kp57\\cmTC_d1fb8.vcxproj]
+          D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g5kp57\\src.c(4,20): error C2143: 璇硶閿欒: 缂哄皯鈥?鈥?鍦ㄢ€渰鈥濈殑鍓嶉潰) [D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g5kp57\\cmTC_d1fb8.vcxproj]
+        
+            0 涓鍛?
+            4 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:00.42
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "CMakeLists.txt:129 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_THREAD_LOCAL_STORAGE"
+    directories:
+      source: "D:/GitHub/FastPlanner/files/nlopt-master/build/CMakeFiles/CMakeScratch/TryCompile-zrns7n"
+      binary: "D:/GitHub/FastPlanner/files/nlopt-master/build/CMakeFiles/CMakeScratch/TryCompile-zrns7n"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/GitHub/FastPlanner/files/nlopt-master/cmake"
+    buildResult:
+      variable: "HAVE_THREAD_LOCAL_STORAGE"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/GitHub/FastPlanner/files/nlopt-master/build/CMakeFiles/CMakeScratch/TryCompile-zrns7n'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_f27de.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.14.19+164abd434
+        鐢熸垚鍚姩鏃堕棿涓?2026/1/3 16:45:31銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淒:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zrns7n\\cmTC_f27de.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_f27de.dir\\Debug\\鈥濄€?
+          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+          姝ｅ湪鍒涘缓鐩綍鈥淒:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zrns7n\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_f27de.dir\\Debug\\cmTC_f27de.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_f27de.dir\\Debug\\cmTC_f27de.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_f27de.dir\\Debug\\cmTC_f27de.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "D:\\GitHub\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Debug"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /I"D:\\GitHub\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_THREAD_LOCAL_STORAGE /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f27de.dir\\Debug\\\\" /Fd"cmTC_f27de.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zrns7n\\src.c"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.44.35215 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          cl /c /I"D:\\GitHub\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_THREAD_LOCAL_STORAGE /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f27de.dir\\Debug\\\\" /Fd"cmTC_f27de.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zrns7n\\src.c"
+          src.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zrns7n\\Debug\\cmTC_f27de.exe" /INCREMENTAL /ILK:"cmTC_f27de.dir\\Debug\\cmTC_f27de.ilk" /NOLOGO /LIBPATH:"D:\\GitHub\\vcpkg\\installed\\x64-windows\\debug\\lib" /LIBPATH:"D:\\GitHub\\vcpkg\\installed\\x64-windows\\debug\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "D:\\GitHub\\vcpkg\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/GitHub/FastPlanner/files/nlopt-master/build/CMakeFiles/CMakeScratch/TryCompile-zrns7n/Debug/cmTC_f27de.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/GitHub/FastPlanner/files/nlopt-master/build/CMakeFiles/CMakeScratch/TryCompile-zrns7n/Debug/cmTC_f27de.lib" /MACHINE:X64  /machine:x64 cmTC_f27de.dir\\Debug\\src.obj
+          cmTC_f27de.vcxproj -> D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zrns7n\\Debug\\cmTC_f27de.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "D:\\GitHub\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zrns7n\\Debug\\cmTC_f27de.exe" "D:\\GitHub\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_f27de.dir\\Debug\\cmTC_f27de.tlog\\cmTC_f27de.write.1u.tlog" "cmTC_f27de.dir\\Debug\\vcpkg.applocal.log"
+          'pwsh.exe' 涓嶆槸鍐呴儴鎴栧閮ㄥ懡浠わ紝涔熶笉鏄彲杩愯鐨勭▼搴?
+          鎴栨壒澶勭悊鏂囦欢銆?
+          鍛戒护鈥減wsh.exe -ExecutionPolicy Bypass -noprofile -File "D:\\GitHub\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zrns7n\\Debug\\cmTC_f27de.exe" "D:\\GitHub\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_f27de.dir\\Debug\\cmTC_f27de.tlog\\cmTC_f27de.write.1u.tlog" "cmTC_f27de.dir\\Debug\\vcpkg.applocal.log"鈥濆凡閫€鍑猴紝浠ｇ爜涓?9009銆?
+          "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "D:\\GitHub\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "D:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zrns7n\\Debug\\cmTC_f27de.exe" "D:\\GitHub\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_f27de.dir\\Debug\\cmTC_f27de.tlog\\cmTC_f27de.write.1u.tlog" "cmTC_f27de.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_f27de.dir\\Debug\\cmTC_f27de.tlog\\unsuccessfulbuild鈥濄€?
+          姝ｅ湪瀵光€渃mTC_f27de.dir\\Debug\\cmTC_f27de.tlog\\cmTC_f27de.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+        宸插畬鎴愮敓鎴愰」鐩€淒:\\GitHub\\FastPlanner\\files\\nlopt-master\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zrns7n\\cmTC_f27de.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+        
+        宸叉垚鍔熺敓鎴愩€?
+            0 涓鍛?
+            0 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:01.13
+        
+      exitCode: 0
+...

@@ -1,0 +1,72 @@
+﻿  Building Custom Rule D:/GitHub/FastPlanner/trajopt_bspline/CMakeLists.txt
+  PlannerInterface.cpp
+D:\GitHub\FastPlanner\trajopt_bspline\include\quadrotor_msgs\time_.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  (编译源文件“../../trajopt_bspline/src/PlannerInterface.cpp”)
+  
+D:\GitHub\FastPlanner\trajopt_bspline\include\grad_replanner\backward.hpp(438,18): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  (编译源文件“../../trajopt_bspline/src/PlannerInterface.cpp”)
+  
+D:\GitHub\FastPlanner\trajopt_bspline\src\PlannerInterface.cpp(93,16): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“_Rep”
+D:\GitHub\FastPlanner\trajopt_bspline\src\PlannerInterface.cpp(93,16): warning C4477:         with
+D:\GitHub\FastPlanner\trajopt_bspline\src\PlannerInterface.cpp(93,16): warning C4477:         [
+D:\GitHub\FastPlanner\trajopt_bspline\src\PlannerInterface.cpp(93,16): warning C4477:             _Rep=__int64
+D:\GitHub\FastPlanner\trajopt_bspline\src\PlannerInterface.cpp(93,16): warning C4477:         ]
+      D:\GitHub\FastPlanner\trajopt_bspline\src\PlannerInterface.cpp(93,16):
+      请考虑在格式字符串中使用“%lld”
+      D:\GitHub\FastPlanner\trajopt_bspline\src\PlannerInterface.cpp(93,16):
+      请考虑在格式字符串中使用“%Id”
+      D:\GitHub\FastPlanner\trajopt_bspline\src\PlannerInterface.cpp(93,16):
+      请考虑在格式字符串中使用“%I64d”
+  
+D:\GitHub\FastPlanner\trajopt_bspline\src\PlannerInterface.cpp(127,9): warning C4102: “Eigen”: 未引用的标签
+D:\GitHub\FastPlanner\trajopt_bspline\src\PlannerInterface.cpp(268,26): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\GitHub\FastPlanner\trajopt_bspline\src\PlannerInterface.cpp(269,26): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\GitHub\FastPlanner\trajopt_bspline\src\PlannerInterface.cpp(270,26): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\GitHub\FastPlanner\trajopt_bspline\src\PlannerInterface.cpp(271,27): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  bspline_replanner.cpp
+D:\GitHub\FastPlanner\trajopt_bspline\include\quadrotor_msgs\time_.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  (编译源文件“../../trajopt_bspline/src/bspline_replanner.cpp”)
+  
+D:\GitHub\FastPlanner\trajopt_bspline\src\bspline_replanner.cpp(24,31): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+D:\GitHub\FastPlanner\trajopt_bspline\src\bspline_replanner.cpp(94,48): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+  grad_band_optimizer.cpp
+D:\GitHub\FastPlanner\trajopt_bspline\include\quadrotor_msgs\time_.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  (编译源文件“../../trajopt_bspline/src/grad_band_optimizer.cpp”)
+  
+D:\GitHub\FastPlanner\trajopt_bspline\src\grad_band_optimizer.cpp(37,46): warning C4244: “=”: 从“Eigen::EigenBase<Derived>::Index”转换到“int”，可能丢失数据
+D:\GitHub\FastPlanner\trajopt_bspline\src\grad_band_optimizer.cpp(37,46): warning C4244:         with
+D:\GitHub\FastPlanner\trajopt_bspline\src\grad_band_optimizer.cpp(37,46): warning C4244:         [
+D:\GitHub\FastPlanner\trajopt_bspline\src\grad_band_optimizer.cpp(37,46): warning C4244:             Derived=Eigen::Matrix<double,-1,-1,0,-1,-1>
+D:\GitHub\FastPlanner\trajopt_bspline\src\grad_band_optimizer.cpp(37,46): warning C4244:         ]
+D:\GitHub\FastPlanner\trajopt_bspline\src\grad_band_optimizer.cpp(179,26): warning C4244: “=”: 从“Eigen::EigenBase<Derived>::Index”转换到“int”，可能丢失数据
+D:\GitHub\FastPlanner\trajopt_bspline\src\grad_band_optimizer.cpp(179,26): warning C4244:         with
+D:\GitHub\FastPlanner\trajopt_bspline\src\grad_band_optimizer.cpp(179,26): warning C4244:         [
+D:\GitHub\FastPlanner\trajopt_bspline\src\grad_band_optimizer.cpp(179,26): warning C4244:             Derived=Eigen::Matrix<double,-1,-1,0,-1,-1>
+D:\GitHub\FastPlanner\trajopt_bspline\src\grad_band_optimizer.cpp(179,26): warning C4244:         ]
+D:\GitHub\FastPlanner\trajopt_bspline\src\grad_band_optimizer.cpp(808,12): warning C4101: “f_end_penalty”: 未引用的局部变量
+D:\GitHub\FastPlanner\trajopt_bspline\src\grad_band_optimizer.cpp(1264,19): warning C4101: “vi”: 未引用的局部变量
+D:\GitHub\FastPlanner\trajopt_bspline\src\grad_band_optimizer.cpp(1307,24): warning C4101: “ai”: 未引用的局部变量
+  non_uniform_bspline.cpp
+D:\GitHub\FastPlanner\trajopt_bspline\src\non_uniform_bspline.cpp(10,27): warning C4244: “=”: 从“Eigen::EigenBase<Derived>::Index”转换到“int”，可能丢失数据
+D:\GitHub\FastPlanner\trajopt_bspline\src\non_uniform_bspline.cpp(10,27): warning C4244:         with
+D:\GitHub\FastPlanner\trajopt_bspline\src\non_uniform_bspline.cpp(10,27): warning C4244:         [
+D:\GitHub\FastPlanner\trajopt_bspline\src\non_uniform_bspline.cpp(10,27): warning C4244:             Derived=Eigen::Matrix<double,-1,-1,0,-1,-1>
+D:\GitHub\FastPlanner\trajopt_bspline\src\non_uniform_bspline.cpp(10,27): warning C4244:         ]
+D:\GitHub\FastPlanner\trajopt_bspline\src\non_uniform_bspline.cpp(318,12): warning C4244: “初始化”: 从“Eigen::EigenBase<Derived>::Index”转换到“int”，可能丢失数据
+D:\GitHub\FastPlanner\trajopt_bspline\src\non_uniform_bspline.cpp(318,12): warning C4244:         with
+D:\GitHub\FastPlanner\trajopt_bspline\src\non_uniform_bspline.cpp(318,12): warning C4244:         [
+D:\GitHub\FastPlanner\trajopt_bspline\src\non_uniform_bspline.cpp(318,12): warning C4244:             Derived=Eigen::Matrix<double,-1,1,0,-1,1>
+D:\GitHub\FastPlanner\trajopt_bspline\src\non_uniform_bspline.cpp(318,12): warning C4244:         ]
+D:\GitHub\FastPlanner\trajopt_bspline\src\non_uniform_bspline.cpp(395,9): warning C4244: “初始化”: 从“Eigen::EigenBase<Derived>::Index”转换到“int”，可能丢失数据
+D:\GitHub\FastPlanner\trajopt_bspline\src\non_uniform_bspline.cpp(395,9): warning C4244:         with
+D:\GitHub\FastPlanner\trajopt_bspline\src\non_uniform_bspline.cpp(395,9): warning C4244:         [
+D:\GitHub\FastPlanner\trajopt_bspline\src\non_uniform_bspline.cpp(395,9): warning C4244:             Derived=Eigen::Matrix<double,-1,-1,0,-1,-1>
+D:\GitHub\FastPlanner\trajopt_bspline\src\non_uniform_bspline.cpp(395,9): warning C4244:         ]
+D:\GitHub\FastPlanner\trajopt_bspline\src\non_uniform_bspline.cpp(454,9): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  bezier_base.cpp
+D:\GitHub\FastPlanner\trajopt_bspline\src\bezier_base.cpp(68,19): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+D:\GitHub\FastPlanner\trajopt_bspline\src\bezier_base.cpp(69,19): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+D:\GitHub\FastPlanner\trajopt_bspline\src\bezier_base.cpp(77,21): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+D:\GitHub\FastPlanner\trajopt_bspline\src\bezier_base.cpp(97,21): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+  正在生成代码...
+  trajopt.vcxproj -> D:\GitHub\FastPlanner\build\trajopt_bspline\Debug\trajopt.lib

@@ -5,7 +5,8 @@
  */
 #include <iostream> 
 #include <string>    
-#include <ios>     
+#include <ios>
+#include <fstream>
 
 #include "PlannerInterface.h"
 #include "../../matplotlib-cpp/matplotlibcpp.h"
@@ -102,6 +103,21 @@ int main()
         obs_x.push_back(obstacle[i].x);
         obs_y.push_back(obstacle[i].y);
         color.push_back(1.0);
+    }
+
+    // 写出 trajectory.csv 到仓库根目录（type,x,y）
+    {
+        std::ofstream ofs("trajectory.csv");
+        if(ofs.is_open()){
+            ofs << "type,x,y\n";
+            for (size_t i = 0; i < global_x.size(); ++i) ofs << "G," << global_x[i] << "," << global_y[i] << "\n";
+            for (size_t i = 0; i < local_plan_x.size(); ++i) ofs << "L," << local_plan_x[i] << "," << local_plan_y[i] << "\n";
+            for (size_t i = 0; i < obs_x.size(); ++i) ofs << "O," << obs_x[i] << "," << obs_y[i] << "\n";
+            ofs.close();
+            std::cout << "Wrote trajectory.csv\n";
+        } else {
+            std::cerr << "Failed to write trajectory.csv" << std::endl;
+        }
     }
 
     std::map<std::string, std::string> keywords1;

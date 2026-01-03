@@ -1,0 +1,428 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B891172B-4F38-3B8B-8461-0ECEEE23D5EF}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>nlopt</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\GitHub\FastPlanner\files\nlopt-master\build\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">nlopt.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">nlopt</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\GitHub\FastPlanner\files\nlopt-master\build\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">nlopt.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">nlopt</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\GitHub\FastPlanner\files\nlopt-master\build\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">nlopt.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">nlopt</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\GitHub\FastPlanner\files\nlopt-master\build\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">nlopt.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">nlopt</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\GitHub\FastPlanner\files\nlopt-master\src\algs\luksan;D:\GitHub\FastPlanner\files\nlopt-master\build;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\stogo;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\ags;D:\GitHub\FastPlanner\files\nlopt-master\src\util;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\direct;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\cdirect;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\praxis;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\crs;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\mlsl;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\mma;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\cobyla;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\newuoa;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\neldermead;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\auglag;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\bobyqa;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\isres;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\slsqp;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\esch;D:\GitHub\FastPlanner\files\nlopt-master\src\api;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NLOPT_LUKSAN;NLOPT_DLL;NLOPT_DLL_EXPORT;CMAKE_INTDIR="Debug";nlopt_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;NLOPT_LUKSAN;NLOPT_DLL;NLOPT_DLL_EXPORT;CMAKE_INTDIR=\"Debug\";nlopt_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\GitHub\FastPlanner\files\nlopt-master\src\algs\luksan;D:\GitHub\FastPlanner\files\nlopt-master\build;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\stogo;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\ags;D:\GitHub\FastPlanner\files\nlopt-master\src\util;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\direct;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\cdirect;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\praxis;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\crs;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\mlsl;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\mma;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\cobyla;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\newuoa;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\neldermead;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\auglag;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\bobyqa;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\isres;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\slsqp;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\esch;D:\GitHub\FastPlanner\files\nlopt-master\src\api;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\GitHub\FastPlanner\files\nlopt-master\src\algs\luksan;D:\GitHub\FastPlanner\files\nlopt-master\build;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\stogo;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\ags;D:\GitHub\FastPlanner\files\nlopt-master\src\util;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\direct;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\cdirect;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\praxis;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\crs;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\mlsl;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\mma;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\cobyla;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\newuoa;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\neldermead;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\auglag;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\bobyqa;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\isres;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\slsqp;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\esch;D:\GitHub\FastPlanner\files\nlopt-master\src\api;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/GitHub/FastPlanner/files/nlopt-master/build/Debug/nlopt.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/GitHub/FastPlanner/files/nlopt-master/build/Debug/nlopt.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\GitHub\FastPlanner\files\nlopt-master\src\algs\luksan;D:\GitHub\FastPlanner\files\nlopt-master\build;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\stogo;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\ags;D:\GitHub\FastPlanner\files\nlopt-master\src\util;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\direct;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\cdirect;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\praxis;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\crs;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\mlsl;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\mma;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\cobyla;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\newuoa;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\neldermead;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\auglag;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\bobyqa;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\isres;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\slsqp;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\esch;D:\GitHub\FastPlanner\files\nlopt-master\src\api;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NLOPT_LUKSAN;NLOPT_DLL;NLOPT_DLL_EXPORT;CMAKE_INTDIR="Release";nlopt_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NLOPT_LUKSAN;NLOPT_DLL;NLOPT_DLL_EXPORT;CMAKE_INTDIR=\"Release\";nlopt_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\GitHub\FastPlanner\files\nlopt-master\src\algs\luksan;D:\GitHub\FastPlanner\files\nlopt-master\build;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\stogo;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\ags;D:\GitHub\FastPlanner\files\nlopt-master\src\util;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\direct;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\cdirect;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\praxis;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\crs;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\mlsl;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\mma;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\cobyla;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\newuoa;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\neldermead;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\auglag;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\bobyqa;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\isres;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\slsqp;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\esch;D:\GitHub\FastPlanner\files\nlopt-master\src\api;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\GitHub\FastPlanner\files\nlopt-master\src\algs\luksan;D:\GitHub\FastPlanner\files\nlopt-master\build;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\stogo;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\ags;D:\GitHub\FastPlanner\files\nlopt-master\src\util;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\direct;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\cdirect;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\praxis;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\crs;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\mlsl;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\mma;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\cobyla;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\newuoa;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\neldermead;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\auglag;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\bobyqa;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\isres;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\slsqp;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\esch;D:\GitHub\FastPlanner\files\nlopt-master\src\api;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/GitHub/FastPlanner/files/nlopt-master/build/Release/nlopt.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/GitHub/FastPlanner/files/nlopt-master/build/Release/nlopt.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\GitHub\FastPlanner\files\nlopt-master\src\algs\luksan;D:\GitHub\FastPlanner\files\nlopt-master\build;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\stogo;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\ags;D:\GitHub\FastPlanner\files\nlopt-master\src\util;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\direct;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\cdirect;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\praxis;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\crs;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\mlsl;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\mma;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\cobyla;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\newuoa;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\neldermead;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\auglag;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\bobyqa;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\isres;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\slsqp;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\esch;D:\GitHub\FastPlanner\files\nlopt-master\src\api;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NLOPT_LUKSAN;NLOPT_DLL;NLOPT_DLL_EXPORT;CMAKE_INTDIR="MinSizeRel";nlopt_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NLOPT_LUKSAN;NLOPT_DLL;NLOPT_DLL_EXPORT;CMAKE_INTDIR=\"MinSizeRel\";nlopt_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\GitHub\FastPlanner\files\nlopt-master\src\algs\luksan;D:\GitHub\FastPlanner\files\nlopt-master\build;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\stogo;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\ags;D:\GitHub\FastPlanner\files\nlopt-master\src\util;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\direct;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\cdirect;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\praxis;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\crs;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\mlsl;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\mma;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\cobyla;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\newuoa;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\neldermead;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\auglag;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\bobyqa;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\isres;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\slsqp;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\esch;D:\GitHub\FastPlanner\files\nlopt-master\src\api;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\GitHub\FastPlanner\files\nlopt-master\src\algs\luksan;D:\GitHub\FastPlanner\files\nlopt-master\build;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\stogo;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\ags;D:\GitHub\FastPlanner\files\nlopt-master\src\util;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\direct;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\cdirect;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\praxis;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\crs;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\mlsl;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\mma;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\cobyla;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\newuoa;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\neldermead;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\auglag;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\bobyqa;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\isres;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\slsqp;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\esch;D:\GitHub\FastPlanner\files\nlopt-master\src\api;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/GitHub/FastPlanner/files/nlopt-master/build/MinSizeRel/nlopt.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/GitHub/FastPlanner/files/nlopt-master/build/MinSizeRel/nlopt.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\GitHub\FastPlanner\files\nlopt-master\src\algs\luksan;D:\GitHub\FastPlanner\files\nlopt-master\build;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\stogo;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\ags;D:\GitHub\FastPlanner\files\nlopt-master\src\util;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\direct;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\cdirect;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\praxis;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\crs;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\mlsl;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\mma;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\cobyla;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\newuoa;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\neldermead;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\auglag;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\bobyqa;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\isres;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\slsqp;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\esch;D:\GitHub\FastPlanner\files\nlopt-master\src\api;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NLOPT_LUKSAN;NLOPT_DLL;NLOPT_DLL_EXPORT;CMAKE_INTDIR="RelWithDebInfo";nlopt_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NLOPT_LUKSAN;NLOPT_DLL;NLOPT_DLL_EXPORT;CMAKE_INTDIR=\"RelWithDebInfo\";nlopt_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\GitHub\FastPlanner\files\nlopt-master\src\algs\luksan;D:\GitHub\FastPlanner\files\nlopt-master\build;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\stogo;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\ags;D:\GitHub\FastPlanner\files\nlopt-master\src\util;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\direct;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\cdirect;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\praxis;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\crs;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\mlsl;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\mma;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\cobyla;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\newuoa;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\neldermead;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\auglag;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\bobyqa;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\isres;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\slsqp;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\esch;D:\GitHub\FastPlanner\files\nlopt-master\src\api;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\GitHub\FastPlanner\files\nlopt-master\src\algs\luksan;D:\GitHub\FastPlanner\files\nlopt-master\build;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\stogo;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\ags;D:\GitHub\FastPlanner\files\nlopt-master\src\util;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\direct;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\cdirect;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\praxis;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\crs;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\mlsl;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\mma;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\cobyla;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\newuoa;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\neldermead;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\auglag;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\bobyqa;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\isres;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\slsqp;D:\GitHub\FastPlanner\files\nlopt-master\src\algs\esch;D:\GitHub\FastPlanner\files\nlopt-master\src\api;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/GitHub/FastPlanner/files/nlopt-master/build/RelWithDebInfo/nlopt.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/GitHub/FastPlanner/files/nlopt-master/build/RelWithDebInfo/nlopt.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\GitHub\FastPlanner\files\nlopt-master\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/GitHub/FastPlanner/files/nlopt-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/GitHub/FastPlanner/files/nlopt-master -BD:/GitHub/FastPlanner/files/nlopt-master/build --check-stamp-file D:/GitHub/FastPlanner/files/nlopt-master/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeFindJavaCommon.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakePushCheckState.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindJNI.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindJava.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindPython.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindPython\Support.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindSWIG.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.31\Templates\CPackConfig.cmake.in;D:\GitHub\FastPlanner\files\nlopt-master\build\CMakeFiles\3.31.10\CMakeCCompiler.cmake;D:\GitHub\FastPlanner\files\nlopt-master\build\CMakeFiles\3.31.10\CMakeCXXCompiler.cmake;D:\GitHub\FastPlanner\files\nlopt-master\build\CMakeFiles\3.31.10\CMakeRCCompiler.cmake;D:\GitHub\FastPlanner\files\nlopt-master\build\CMakeFiles\3.31.10\CMakeSystem.cmake;D:\GitHub\FastPlanner\files\nlopt-master\cmake\FindGuile.cmake;D:\GitHub\FastPlanner\files\nlopt-master\cmake\FindOctave.cmake;D:\GitHub\FastPlanner\files\nlopt-master\cmake\NLoptConfig.cmake.in;D:\GitHub\FastPlanner\files\nlopt-master\cmake\NLoptConfigVersion.cmake.in;D:\GitHub\FastPlanner\files\nlopt-master\nlopt.pc.in;D:\GitHub\FastPlanner\files\nlopt-master\nlopt_config.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\GitHub\FastPlanner\files\nlopt-master\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/GitHub/FastPlanner/files/nlopt-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/GitHub/FastPlanner/files/nlopt-master -BD:/GitHub/FastPlanner/files/nlopt-master/build --check-stamp-file D:/GitHub/FastPlanner/files/nlopt-master/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeFindJavaCommon.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakePushCheckState.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindJNI.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindJava.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindPython.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindPython\Support.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindSWIG.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.31\Templates\CPackConfig.cmake.in;D:\GitHub\FastPlanner\files\nlopt-master\build\CMakeFiles\3.31.10\CMakeCCompiler.cmake;D:\GitHub\FastPlanner\files\nlopt-master\build\CMakeFiles\3.31.10\CMakeCXXCompiler.cmake;D:\GitHub\FastPlanner\files\nlopt-master\build\CMakeFiles\3.31.10\CMakeRCCompiler.cmake;D:\GitHub\FastPlanner\files\nlopt-master\build\CMakeFiles\3.31.10\CMakeSystem.cmake;D:\GitHub\FastPlanner\files\nlopt-master\cmake\FindGuile.cmake;D:\GitHub\FastPlanner\files\nlopt-master\cmake\FindOctave.cmake;D:\GitHub\FastPlanner\files\nlopt-master\cmake\NLoptConfig.cmake.in;D:\GitHub\FastPlanner\files\nlopt-master\cmake\NLoptConfigVersion.cmake.in;D:\GitHub\FastPlanner\files\nlopt-master\nlopt.pc.in;D:\GitHub\FastPlanner\files\nlopt-master\nlopt_config.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\GitHub\FastPlanner\files\nlopt-master\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/GitHub/FastPlanner/files/nlopt-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/GitHub/FastPlanner/files/nlopt-master -BD:/GitHub/FastPlanner/files/nlopt-master/build --check-stamp-file D:/GitHub/FastPlanner/files/nlopt-master/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeFindJavaCommon.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakePushCheckState.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindJNI.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindJava.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindPython.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindPython\Support.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindSWIG.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.31\Templates\CPackConfig.cmake.in;D:\GitHub\FastPlanner\files\nlopt-master\build\CMakeFiles\3.31.10\CMakeCCompiler.cmake;D:\GitHub\FastPlanner\files\nlopt-master\build\CMakeFiles\3.31.10\CMakeCXXCompiler.cmake;D:\GitHub\FastPlanner\files\nlopt-master\build\CMakeFiles\3.31.10\CMakeRCCompiler.cmake;D:\GitHub\FastPlanner\files\nlopt-master\build\CMakeFiles\3.31.10\CMakeSystem.cmake;D:\GitHub\FastPlanner\files\nlopt-master\cmake\FindGuile.cmake;D:\GitHub\FastPlanner\files\nlopt-master\cmake\FindOctave.cmake;D:\GitHub\FastPlanner\files\nlopt-master\cmake\NLoptConfig.cmake.in;D:\GitHub\FastPlanner\files\nlopt-master\cmake\NLoptConfigVersion.cmake.in;D:\GitHub\FastPlanner\files\nlopt-master\nlopt.pc.in;D:\GitHub\FastPlanner\files\nlopt-master\nlopt_config.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\GitHub\FastPlanner\files\nlopt-master\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/GitHub/FastPlanner/files/nlopt-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/GitHub/FastPlanner/files/nlopt-master -BD:/GitHub/FastPlanner/files/nlopt-master/build --check-stamp-file D:/GitHub/FastPlanner/files/nlopt-master/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeFindJavaCommon.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakePushCheckState.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindJNI.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindJava.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindPython.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindPython\Support.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindSWIG.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.31\Templates\CPackConfig.cmake.in;D:\GitHub\FastPlanner\files\nlopt-master\build\CMakeFiles\3.31.10\CMakeCCompiler.cmake;D:\GitHub\FastPlanner\files\nlopt-master\build\CMakeFiles\3.31.10\CMakeCXXCompiler.cmake;D:\GitHub\FastPlanner\files\nlopt-master\build\CMakeFiles\3.31.10\CMakeRCCompiler.cmake;D:\GitHub\FastPlanner\files\nlopt-master\build\CMakeFiles\3.31.10\CMakeSystem.cmake;D:\GitHub\FastPlanner\files\nlopt-master\cmake\FindGuile.cmake;D:\GitHub\FastPlanner\files\nlopt-master\cmake\FindOctave.cmake;D:\GitHub\FastPlanner\files\nlopt-master\cmake\NLoptConfig.cmake.in;D:\GitHub\FastPlanner\files\nlopt-master\cmake\NLoptConfigVersion.cmake.in;D:\GitHub\FastPlanner\files\nlopt-master\nlopt.pc.in;D:\GitHub\FastPlanner\files\nlopt-master\nlopt_config.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\GitHub\FastPlanner\files\nlopt-master\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\GitHub\FastPlanner\files\nlopt-master\src\algs\direct\DIRect.c" />
+    <ClCompile Include="D:\GitHub\FastPlanner\files\nlopt-master\src\algs\direct\direct_wrap.c" />
+    <ClCompile Include="D:\GitHub\FastPlanner\files\nlopt-master\src\algs\direct\DIRserial.c" />
+    <ClCompile Include="D:\GitHub\FastPlanner\files\nlopt-master\src\algs\direct\DIRsubrout.c" />
+    <ClInclude Include="D:\GitHub\FastPlanner\files\nlopt-master\src\algs\direct\direct-internal.h" />
+    <ClInclude Include="D:\GitHub\FastPlanner\files\nlopt-master\src\algs\direct\direct.h" />
+    <ClCompile Include="D:\GitHub\FastPlanner\files\nlopt-master\src\algs\cdirect\cdirect.c" />
+    <ClCompile Include="D:\GitHub\FastPlanner\files\nlopt-master\src\algs\cdirect\hybrid.c" />
+    <ClInclude Include="D:\GitHub\FastPlanner\files\nlopt-master\src\algs\cdirect\cdirect.h" />
+    <ClCompile Include="D:\GitHub\FastPlanner\files\nlopt-master\src\algs\praxis\praxis.c" />
+    <ClInclude Include="D:\GitHub\FastPlanner\files\nlopt-master\src\algs\praxis\praxis.h" />
+    <ClCompile Include="D:\GitHub\FastPlanner\files\nlopt-master\src\algs\crs\crs.c" />
+    <ClInclude Include="D:\GitHub\FastPlanner\files\nlopt-master\src\algs\crs\crs.h" />
+    <ClCompile Include="D:\GitHub\FastPlanner\files\nlopt-master\src\algs\mlsl\mlsl.c" />
+    <ClInclude Include="D:\GitHub\FastPlanner\files\nlopt-master\src\algs\mlsl\mlsl.h" />
+    <ClCompile Include="D:\GitHub\FastPlanner\files\nlopt-master\src\algs\mma\mma.c" />
+    <ClInclude Include="D:\GitHub\FastPlanner\files\nlopt-master\src\algs\mma\mma.h" />
+    <ClCompile Include="D:\GitHub\FastPlanner\files\nlopt-master\src\algs\mma\ccsa_quadratic.c" />
+    <ClCompile Include="D:\GitHub\FastPlanner\files\nlopt-master\src\algs\cobyla\cobyla.c" />
+    <ClInclude Include="D:\GitHub\FastPlanner\files\nlopt-master\src\algs\cobyla\cobyla.h" />
+    <ClCompile Include="D:\GitHub\FastPlanner\files\nlopt-master\src\algs\newuoa\newuoa.c" />
+    <ClInclude Include="D:\GitHub\FastPlanner\files\nlopt-master\src\algs\newuoa\newuoa.h" />
+    <ClCompile Include="D:\GitHub\FastPlanner\files\nlopt-master\src\algs\neldermead\nldrmd.c" />
+    <ClInclude Include="D:\GitHub\FastPlanner\files\nlopt-master\src\algs\neldermead\neldermead.h" />
+    <ClCompile Include="D:\GitHub\FastPlanner\files\nlopt-master\src\algs\neldermead\sbplx.c" />
+    <ClCompile Include="D:\GitHub\FastPlanner\files\nlopt-master\src\algs\auglag\auglag.c" />
+    <ClInclude Include="D:\GitHub\FastPlanner\files\nlopt-master\src\algs\auglag\auglag.h" />
+    <ClCompile Include="D:\GitHub\FastPlanner\files\nlopt-master\src\algs\bobyqa\bobyqa.c" />
+    <ClInclude Include="D:\GitHub\FastPlanner\files\nlopt-master\src\algs\bobyqa\bobyqa.h" />
+    <ClCompile Include="D:\GitHub\FastPlanner\files\nlopt-master\src\algs\isres\isres.c" />
+    <ClInclude Include="D:\GitHub\FastPlanner\files\nlopt-master\src\algs\isres\isres.h" />
+    <ClCompile Include="D:\GitHub\FastPlanner\files\nlopt-master\src\algs\slsqp\slsqp.c" />
+    <ClInclude Include="D:\GitHub\FastPlanner\files\nlopt-master\src\algs\slsqp\slsqp.h" />
+    <ClCompile Include="D:\GitHub\FastPlanner\files\nlopt-master\src\algs\esch\esch.c" />
+    <ClInclude Include="D:\GitHub\FastPlanner\files\nlopt-master\src\algs\esch\esch.h" />
+    <ClCompile Include="D:\GitHub\FastPlanner\files\nlopt-master\src\api\general.c" />
+    <ClCompile Include="D:\GitHub\FastPlanner\files\nlopt-master\src\api\options.c" />
+    <ClCompile Include="D:\GitHub\FastPlanner\files\nlopt-master\src\api\optimize.c" />
+    <ClCompile Include="D:\GitHub\FastPlanner\files\nlopt-master\src\api\deprecated.c" />
+    <ClInclude Include="D:\GitHub\FastPlanner\files\nlopt-master\src\api\nlopt-internal.h" />
+    <ClInclude Include="D:\GitHub\FastPlanner\files\nlopt-master\src\api\nlopt.h" />
+    <ClCompile Include="D:\GitHub\FastPlanner\files\nlopt-master\src\api\f77api.c" />
+    <ClInclude Include="D:\GitHub\FastPlanner\files\nlopt-master\src\api\f77funcs.h" />
+    <ClInclude Include="D:\GitHub\FastPlanner\files\nlopt-master\src\api\f77funcs_.h" />
+    <ClInclude Include="D:\GitHub\FastPlanner\files\nlopt-master\build\nlopt.hpp" />
+    <ClCompile Include="D:\GitHub\FastPlanner\files\nlopt-master\src\util\mt19937ar.c" />
+    <ClCompile Include="D:\GitHub\FastPlanner\files\nlopt-master\src\util\sobolseq.c" />
+    <ClInclude Include="D:\GitHub\FastPlanner\files\nlopt-master\src\util\soboldata.h" />
+    <ClCompile Include="D:\GitHub\FastPlanner\files\nlopt-master\src\util\timer.c" />
+    <ClCompile Include="D:\GitHub\FastPlanner\files\nlopt-master\src\util\stop.c" />
+    <ClInclude Include="D:\GitHub\FastPlanner\files\nlopt-master\src\util\nlopt-util.h" />
+    <ClCompile Include="D:\GitHub\FastPlanner\files\nlopt-master\src\util\redblack.c" />
+    <ClInclude Include="D:\GitHub\FastPlanner\files\nlopt-master\src\util\redblack.h" />
+    <ClCompile Include="D:\GitHub\FastPlanner\files\nlopt-master\src\util\qsort_r.c" />
+    <ClCompile Include="D:\GitHub\FastPlanner\files\nlopt-master\src\util\rescale.c" />
+    <ClCompile Include="D:\GitHub\FastPlanner\files\nlopt-master\src\algs\luksan\plis.c" />
+    <ClCompile Include="D:\GitHub\FastPlanner\files\nlopt-master\src\algs\luksan\plip.c" />
+    <ClCompile Include="D:\GitHub\FastPlanner\files\nlopt-master\src\algs\luksan\pnet.c" />
+    <ClCompile Include="D:\GitHub\FastPlanner\files\nlopt-master\src\algs\luksan\mssubs.c" />
+    <ClCompile Include="D:\GitHub\FastPlanner\files\nlopt-master\src\algs\luksan\pssubs.c" />
+    <ClInclude Include="D:\GitHub\FastPlanner\files\nlopt-master\src\algs\luksan\luksan.h" />
+    <ClCompile Include="D:\GitHub\FastPlanner\files\nlopt-master\src\algs\stogo\global.cc" />
+    <ClCompile Include="D:\GitHub\FastPlanner\files\nlopt-master\src\algs\stogo\linalg.cc" />
+    <ClCompile Include="D:\GitHub\FastPlanner\files\nlopt-master\src\algs\stogo\local.cc" />
+    <ClCompile Include="D:\GitHub\FastPlanner\files\nlopt-master\src\algs\stogo\stogo.cc" />
+    <ClCompile Include="D:\GitHub\FastPlanner\files\nlopt-master\src\algs\stogo\tools.cc" />
+    <ClInclude Include="D:\GitHub\FastPlanner\files\nlopt-master\src\algs\stogo\global.h" />
+    <ClInclude Include="D:\GitHub\FastPlanner\files\nlopt-master\src\algs\stogo\linalg.h" />
+    <ClInclude Include="D:\GitHub\FastPlanner\files\nlopt-master\src\algs\stogo\local.h" />
+    <ClInclude Include="D:\GitHub\FastPlanner\files\nlopt-master\src\algs\stogo\stogo_config.h" />
+    <ClInclude Include="D:\GitHub\FastPlanner\files\nlopt-master\src\algs\stogo\stogo.h" />
+    <ClInclude Include="D:\GitHub\FastPlanner\files\nlopt-master\src\algs\stogo\tools.h" />
+    <ClInclude Include="D:\GitHub\FastPlanner\files\nlopt-master\src\algs\ags\data_types.hpp" />
+    <ClInclude Include="D:\GitHub\FastPlanner\files\nlopt-master\src\algs\ags\evolvent.hpp" />
+    <ClCompile Include="D:\GitHub\FastPlanner\files\nlopt-master\src\algs\ags\evolvent.cc" />
+    <ClInclude Include="D:\GitHub\FastPlanner\files\nlopt-master\src\algs\ags\solver.hpp" />
+    <ClCompile Include="D:\GitHub\FastPlanner\files\nlopt-master\src\algs\ags\solver.cc" />
+    <ClInclude Include="D:\GitHub\FastPlanner\files\nlopt-master\src\algs\ags\local_optimizer.hpp" />
+    <ClCompile Include="D:\GitHub\FastPlanner\files\nlopt-master\src\algs\ags\local_optimizer.cc" />
+    <ClInclude Include="D:\GitHub\FastPlanner\files\nlopt-master\src\algs\ags\ags.h" />
+    <ClCompile Include="D:\GitHub\FastPlanner\files\nlopt-master\src\algs\ags\ags.cc" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="D:\GitHub\FastPlanner\files\nlopt-master\build\ZERO_CHECK.vcxproj">
+      <Project>{DAB052DC-6593-3518-83C5-18DE23CD48E6}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\GitHub\FastPlanner\files\nlopt-master\build\generate-cpp.vcxproj">
+      <Project>{AC3AC4FB-A8DC-33D0-95A1-18B4C335C991}</Project>
+      <Name>generate-cpp</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

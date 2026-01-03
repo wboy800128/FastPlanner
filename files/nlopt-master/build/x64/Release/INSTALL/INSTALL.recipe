@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>D:\GitHub\FastPlanner\files\nlopt-master\build\x64\Release\ZERO_CHECK</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\GitHub\FastPlanner\files\nlopt-master\build\x64\Release\generate-cpp</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\GitHub\FastPlanner\files\nlopt-master\build\Release\nlopt.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\GitHub\FastPlanner\files\nlopt-master\build\x64\Release\ALL_BUILD</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\GitHub\FastPlanner\files\nlopt-master\build\x64\Release\INSTALL</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles />
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

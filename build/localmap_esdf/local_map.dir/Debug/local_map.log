@@ -1,0 +1,10 @@
+﻿  Building Custom Rule D:/GitHub/FastPlanner/localmap_esdf/CMakeLists.txt
+  sdf_map.cpp
+D:\GitHub\FastPlanner\localmap_esdf\src\sdf_map.cpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\GitHub\FastPlanner\localmap_esdf\src\sdf_map.cpp(54,18): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+D:\GitHub\FastPlanner\localmap_esdf\src\sdf_map.cpp(458,26): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+D:\GitHub\FastPlanner\localmap_esdf\src\sdf_map.cpp(458,20): warning C4244: “初始化”: 从“double”转换到“const int”，可能丢失数据
+D:\GitHub\FastPlanner\localmap_esdf\src\sdf_map.cpp(544,24): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+D:\GitHub\FastPlanner\localmap_esdf\src\sdf_map.cpp(717,16): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+D:\GitHub\FastPlanner\localmap_esdf\src\sdf_map.cpp(726,38): warning C4244: “参数”: 从“double”转换到“const unsigned __int64”，可能丢失数据
+  local_map.vcxproj -> D:\GitHub\FastPlanner\build\localmap_esdf\Debug\local_map.lib

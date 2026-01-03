@@ -10,4 +10,8 @@ add_library(
         src/sdf_map.cpp 
     )
 
+# Find Eigen3 (vcpkg provides this via toolchain)
+find_package(Eigen3 REQUIRED NO_MODULE)
+target_link_libraries(local_map PUBLIC Eigen3::Eigen)
+
 

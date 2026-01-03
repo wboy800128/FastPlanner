@@ -1,0 +1,14 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.31/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/FindPython/Support.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/FindPython3.cmake
+D:/GitHub/FastPlanner/trajopt_bspline/CMakeLists.txt
+D:/GitHub/vcpkg/installed/x64-windows/share/eigen3/Eigen3Config.cmake
+D:/GitHub/vcpkg/installed/x64-windows/share/eigen3/Eigen3ConfigVersion.cmake
+D:/GitHub/vcpkg/installed/x64-windows/share/eigen3/Eigen3Targets.cmake
+D:/GitHub/vcpkg/installed/x64-windows/share/nlopt/NLoptConfig.cmake
+D:/GitHub/vcpkg/installed/x64-windows/share/nlopt/NLoptConfigVersion.cmake
+D:/GitHub/vcpkg/installed/x64-windows/share/nlopt/NLoptLibraryDepends-debug.cmake
+D:/GitHub/vcpkg/installed/x64-windows/share/nlopt/NLoptLibraryDepends-release.cmake
+D:/GitHub/vcpkg/installed/x64-windows/share/nlopt/NLoptLibraryDepends.cmake

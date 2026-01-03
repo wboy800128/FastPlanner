@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\GitHub\FastPlanner\files\nlopt-master\src\algs\direct\DIRect.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FastPlanner\files\nlopt-master\src\algs\direct\direct_wrap.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FastPlanner\files\nlopt-master\src\algs\direct\DIRserial.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FastPlanner\files\nlopt-master\src\algs\direct\DIRsubrout.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FastPlanner\files\nlopt-master\src\algs\cdirect\cdirect.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FastPlanner\files\nlopt-master\src\algs\cdirect\hybrid.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FastPlanner\files\nlopt-master\src\algs\praxis\praxis.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FastPlanner\files\nlopt-master\src\algs\crs\crs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FastPlanner\files\nlopt-master\src\algs\mlsl\mlsl.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FastPlanner\files\nlopt-master\src\algs\mma\mma.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FastPlanner\files\nlopt-master\src\algs\mma\ccsa_quadratic.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FastPlanner\files\nlopt-master\src\algs\cobyla\cobyla.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FastPlanner\files\nlopt-master\src\algs\newuoa\newuoa.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FastPlanner\files\nlopt-master\src\algs\neldermead\nldrmd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FastPlanner\files\nlopt-master\src\algs\neldermead\sbplx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FastPlanner\files\nlopt-master\src\algs\auglag\auglag.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FastPlanner\files\nlopt-master\src\algs\bobyqa\bobyqa.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FastPlanner\files\nlopt-master\src\algs\isres\isres.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FastPlanner\files\nlopt-master\src\algs\slsqp\slsqp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FastPlanner\files\nlopt-master\src\algs\esch\esch.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FastPlanner\files\nlopt-master\src\api\general.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FastPlanner\files\nlopt-master\src\api\options.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FastPlanner\files\nlopt-master\src\api\optimize.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FastPlanner\files\nlopt-master\src\api\deprecated.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FastPlanner\files\nlopt-master\src\api\f77api.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FastPlanner\files\nlopt-master\src\util\mt19937ar.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FastPlanner\files\nlopt-master\src\util\sobolseq.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FastPlanner\files\nlopt-master\src\util\timer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FastPlanner\files\nlopt-master\src\util\stop.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FastPlanner\files\nlopt-master\src\util\redblack.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FastPlanner\files\nlopt-master\src\util\qsort_r.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FastPlanner\files\nlopt-master\src\util\rescale.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FastPlanner\files\nlopt-master\src\algs\luksan\plis.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FastPlanner\files\nlopt-master\src\algs\luksan\plip.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FastPlanner\files\nlopt-master\src\algs\luksan\pnet.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FastPlanner\files\nlopt-master\src\algs\luksan\mssubs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FastPlanner\files\nlopt-master\src\algs\luksan\pssubs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FastPlanner\files\nlopt-master\src\algs\stogo\global.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FastPlanner\files\nlopt-master\src\algs\stogo\linalg.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FastPlanner\files\nlopt-master\src\algs\stogo\local.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FastPlanner\files\nlopt-master\src\algs\stogo\stogo.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FastPlanner\files\nlopt-master\src\algs\stogo\tools.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FastPlanner\files\nlopt-master\src\algs\ags\evolvent.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FastPlanner\files\nlopt-master\src\algs\ags\solver.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FastPlanner\files\nlopt-master\src\algs\ags\local_optimizer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitHub\FastPlanner\files\nlopt-master\src\algs\ags\ags.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\GitHub\FastPlanner\files\nlopt-master\src\algs\direct\direct-internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\GitHub\FastPlanner\files\nlopt-master\src\algs\direct\direct.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\GitHub\FastPlanner\files\nlopt-master\src\algs\cdirect\cdirect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\GitHub\FastPlanner\files\nlopt-master\src\algs\praxis\praxis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\GitHub\FastPlanner\files\nlopt-master\src\algs\crs\crs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\GitHub\FastPlanner\files\nlopt-master\src\algs\mlsl\mlsl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\GitHub\FastPlanner\files\nlopt-master\src\algs\mma\mma.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\GitHub\FastPlanner\files\nlopt-master\src\algs\cobyla\cobyla.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\GitHub\FastPlanner\files\nlopt-master\src\algs\newuoa\newuoa.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\GitHub\FastPlanner\files\nlopt-master\src\algs\neldermead\neldermead.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\GitHub\FastPlanner\files\nlopt-master\src\algs\auglag\auglag.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\GitHub\FastPlanner\files\nlopt-master\src\algs\bobyqa\bobyqa.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\GitHub\FastPlanner\files\nlopt-master\src\algs\isres\isres.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\GitHub\FastPlanner\files\nlopt-master\src\algs\slsqp\slsqp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\GitHub\FastPlanner\files\nlopt-master\src\algs\esch\esch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\GitHub\FastPlanner\files\nlopt-master\src\api\nlopt-internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\GitHub\FastPlanner\files\nlopt-master\src\api\nlopt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\GitHub\FastPlanner\files\nlopt-master\src\api\f77funcs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\GitHub\FastPlanner\files\nlopt-master\src\api\f77funcs_.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\GitHub\FastPlanner\files\nlopt-master\build\nlopt.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\GitHub\FastPlanner\files\nlopt-master\src\util\soboldata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\GitHub\FastPlanner\files\nlopt-master\src\util\nlopt-util.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\GitHub\FastPlanner\files\nlopt-master\src\util\redblack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\GitHub\FastPlanner\files\nlopt-master\src\algs\luksan\luksan.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\GitHub\FastPlanner\files\nlopt-master\src\algs\stogo\global.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\GitHub\FastPlanner\files\nlopt-master\src\algs\stogo\linalg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\GitHub\FastPlanner\files\nlopt-master\src\algs\stogo\local.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\GitHub\FastPlanner\files\nlopt-master\src\algs\stogo\stogo_config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\GitHub\FastPlanner\files\nlopt-master\src\algs\stogo\stogo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\GitHub\FastPlanner\files\nlopt-master\src\algs\stogo\tools.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\GitHub\FastPlanner\files\nlopt-master\src\algs\ags\data_types.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\GitHub\FastPlanner\files\nlopt-master\src\algs\ags\evolvent.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\GitHub\FastPlanner\files\nlopt-master\src\algs\ags\solver.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\GitHub\FastPlanner\files\nlopt-master\src\algs\ags\local_optimizer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\GitHub\FastPlanner\files\nlopt-master\src\algs\ags\ags.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\GitHub\FastPlanner\files\nlopt-master\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{39D1D38A-BA4B-3BA8-9800-5FDB458D2F11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{43D2E18E-B84F-35F0-B40C-33F6852E606D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

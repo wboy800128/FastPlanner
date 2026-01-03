@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\GitHub\FastPlanner\files\nlopt-master\build\CMakeFiles\12a21f97dc904743802104fba9b6a9df\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{517B1EAE-2FFA-30F7-9894-06850C89E3D6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
